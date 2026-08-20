@@ -1,3 +1,6 @@
+npm start
+to run the project
+
 # iNext ERP → Shopify Sync
 
 Syncs products from the **iNext ERP** system to **Mamta Saree Centre** Shopify store.
