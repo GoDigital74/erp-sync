@@ -1,0 +1,28 @@
+[2026-08-19T11:12:39.161Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:12:39.164Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-19T11:12:39.164Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:12:39.165Z] [INFO ] Calling iNext ERP API...
+[2026-08-19T11:12:49.620Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-19T11:12:49.621Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-19T11:12:49.622Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-19T11:14:30.148Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:14:30.149Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-19T11:14:30.150Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:14:30.151Z] [INFO ] Calling iNext ERP API...
+[2026-08-19T11:14:42.171Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-19T11:14:42.171Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-19T11:14:42.172Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-19T11:14:48.602Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:14:48.604Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-19T11:14:48.605Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:14:48.605Z] [INFO ] Calling iNext ERP API...
+[2026-08-19T11:14:59.068Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-19T11:14:59.069Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-19T11:14:59.069Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-19T11:50:15.010Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:50:15.012Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-19T11:50:15.012Z] [INFO ] ══════════════════════════════════════════
+[2026-08-19T11:50:15.013Z] [INFO ] Calling iNext ERP API...
+[2026-08-19T11:50:25.574Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-19T11:50:25.574Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-19T11:50:25.575Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.

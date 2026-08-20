@@ -1,0 +1,95 @@
+[2026-07-29T07:58:09.519Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T07:58:09.520Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T07:58:09.520Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T07:58:09.521Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T07:58:10.222Z] [ERROR] Fatal sync error: Request failed with status code 400
+[2026-07-29T07:58:10.222Z] [ERROR] Response: {"status":false,"message":"No data found","data":[]}
+[2026-07-29T07:58:41.306Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T07:58:41.307Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T07:58:41.307Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T07:58:41.308Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T07:58:41.979Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T07:58:41.979Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T07:58:41.980Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T08:47:39.070Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T08:47:39.071Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T08:47:39.072Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T08:47:39.072Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T08:47:39.847Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T08:47:39.847Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T08:47:39.848Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T08:54:44.492Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T08:54:44.493Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T08:54:44.494Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T08:54:44.494Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T08:54:45.274Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T08:54:45.275Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T08:54:45.276Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T09:11:26.685Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:11:26.686Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T09:11:26.687Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:11:26.687Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T09:11:27.454Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T09:11:27.455Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T09:11:27.456Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T09:17:44.964Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:17:44.966Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T09:17:44.966Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:17:44.967Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T09:17:45.655Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T09:17:45.655Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T09:17:45.656Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T09:26:57.336Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:26:57.338Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T09:26:57.338Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:26:57.339Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T09:26:59.370Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T09:26:59.371Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T09:26:59.372Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T09:33:25.241Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:33:25.243Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T09:33:25.244Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T09:33:25.244Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T09:33:30.272Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T09:33:30.272Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T09:33:30.273Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T11:43:56.945Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:43:56.947Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T11:43:56.947Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:43:56.948Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T11:43:57.021Z] [ERROR] Fatal sync error: iNext API network error: getaddrinfo ENOTFOUND api.inexterpsolutions.in
+[2026-07-29T11:44:09.453Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:44:09.455Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T11:44:09.456Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:44:09.457Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T11:44:14.778Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T11:44:14.779Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T11:44:14.779Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T11:44:29.956Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:44:29.958Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T11:44:29.958Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:44:29.959Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T11:44:33.956Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T11:44:33.956Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T11:44:33.957Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T11:46:52.136Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:46:52.138Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T11:46:52.139Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T11:46:52.139Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T11:46:56.016Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T11:46:56.017Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T11:46:56.018Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T12:28:57.116Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T12:28:57.118Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T12:28:57.118Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T12:28:57.119Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T12:29:00.027Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T12:29:00.028Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T12:29:00.029Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-07-29T13:22:22.851Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T13:22:22.852Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-07-29T13:22:22.853Z] [INFO ] ══════════════════════════════════════════
+[2026-07-29T13:22:22.854Z] [INFO ] Calling iNext ERP API...
+[2026-07-29T13:22:26.074Z] [WARN ] iNext API: No data found (0 products returned)
+[2026-07-29T13:22:26.075Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-07-29T13:22:26.076Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
