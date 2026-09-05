@@ -1,0 +1,104 @@
+[2026-08-27T07:59:36.243Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T07:59:36.259Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T07:59:36.260Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T07:59:36.262Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T07:59:46.776Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-27T07:59:46.777Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-27T07:59:46.778Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-27T08:34:25.784Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T08:34:25.787Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T08:34:25.788Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T08:34:25.789Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T08:34:37.447Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-27T08:34:37.448Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-27T08:34:37.449Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-27T08:35:28.881Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T08:35:28.883Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T08:35:28.884Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T08:35:28.885Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T08:35:39.298Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-27T08:35:39.299Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-27T08:35:39.300Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-27T11:34:47.156Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T11:34:47.158Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T11:34:47.159Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T11:34:47.160Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T11:34:57.953Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-27T11:34:57.954Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-27T11:34:57.955Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-27T11:39:17.389Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T11:39:17.391Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T11:39:17.391Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T11:39:17.392Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T11:39:27.778Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-27T11:39:27.779Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-27T11:39:27.779Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-27T11:51:46.757Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T11:51:46.759Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T11:51:46.760Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T11:51:46.760Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T11:51:57.239Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-27T11:51:57.240Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-27T11:51:57.241Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-08-27T12:30:06.041Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T12:30:06.044Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T12:30:06.045Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T12:30:06.046Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T12:30:07.376Z] [OK   ] iNext API returned 32 products
+[2026-08-27T12:30:07.382Z] [INFO ] ERP fields available: Itemcode, ItemId, ItemMRP, ItemWSP, ItemEXP, PurchasePrice, ArticleId, ArticleNo, Description, ExtDescription, ArticleShortName, UomId, UomName, GstUQC, UomType, CodingType, ArticleStockType, InvDepartmentId, InvDepartmentName, InvDepartmentShortName, InvCategoryId, InvCategoryName, InvCategoryShortName, InvSubCategoryId, InvSubCategoryName, InvSubCategoryShortName, Para1Id, Para1Name, Para1ShortName, Para2Id, Para2Name, Para2ShortName, Para3Id, Para3Name, Para3ShortName, Para4Id, Para4Name, Para4ShortName, Para5Id, Para5Name, Para5ShortName, Para6Id, Para6Name, Para6ShortName, ExtCategoryName, PurPartyId, SupplierName, SupplierShortName, SupplierAlias, GstClassification, HSNCode, StockQty
+[2026-08-27T12:30:07.383Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-08-27T12:30:07.383Z] [INFO ] Loading existing Shopify products...
+[2026-08-27T12:30:08.930Z] [INFO ] Found 136 existing SKUs on Shopify
+[2026-08-27T12:30:11.412Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-08-27T12:30:11.413Z] [OK   ] [1/32] CREATED: "SSS-4058S - RED" (SKU: M0126722)
+[2026-08-27T12:30:12.993Z] [OK   ] [2/32] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126774)
+[2026-08-27T12:30:14.609Z] [OK   ] [3/32] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126775)
+[2026-08-27T12:30:16.099Z] [OK   ] [4/32] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126772)
+[2026-08-27T12:30:17.796Z] [OK   ] [5/32] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126773)
+[2026-08-27T12:30:19.836Z] [OK   ] [6/32] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126770)
+[2026-08-27T12:30:21.377Z] [OK   ] [7/32] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126771)
+[2026-08-27T12:30:22.875Z] [OK   ] [8/32] UPDATED: "ZEBRA MULTI - BLUE" (SKU: M0126776)
+[2026-08-27T12:30:24.334Z] [OK   ] [9/32] UPDATED: "ZEBRA MULTI - GOLDEN" (SKU: M0126778)
+[2026-08-27T12:30:25.982Z] [OK   ] [10/32] UPDATED: "ZEBRA MULTI - PISTA" (SKU: M0126777)
+[2026-08-27T12:30:27.471Z] [OK   ] [11/32] UPDATED: "ZEBRA MULTI - BUTTER" (SKU: M0126779)
+[2026-08-27T12:30:28.976Z] [OK   ] [12/32] UPDATED: "ZEBRA GOLDEN - PINK" (SKU: M0126781)
+[2026-08-27T12:30:30.458Z] [OK   ] [13/32] UPDATED: "ZEBRA GOLDEN - PURPLE" (SKU: M0126782)
+[2026-08-27T12:30:32.091Z] [OK   ] [14/32] UPDATED: "ZEBRA GOLDEN - BLUE" (SKU: M0126783)
+[2026-08-27T12:30:33.558Z] [OK   ] [15/32] UPDATED: "ZEBRA GOLDEN - GOLDEN" (SKU: M0126780)
+[2026-08-27T12:30:35.678Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-08-27T12:30:35.679Z] [OK   ] [16/32] CREATED: "DESIGNER POSITION - YELLOW" (SKU: M0126786)
+[2026-08-27T12:30:37.798Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-08-27T12:30:37.799Z] [OK   ] [17/32] CREATED: "DESIGNER POSITION - FIROZE" (SKU: M0126784)
+[2026-08-27T12:30:39.920Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-08-27T12:30:39.921Z] [OK   ] [18/32] CREATED: "DESIGNER POSITION - RED" (SKU: M0126787)
+[2026-08-27T12:30:42.011Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-08-27T12:30:42.012Z] [OK   ] [19/32] CREATED: "DESIGNER POSITION - RED" (SKU: M0126788)
+[2026-08-27T12:30:44.179Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-08-27T12:30:44.180Z] [OK   ] [20/32] CREATED: "DESIGNER POSITION - RANI" (SKU: M0126785)
+[2026-08-27T12:30:45.675Z] [OK   ] [21/32] UPDATED: "PEARL POSITION - YELLOW" (SKU: M0126792)
+[2026-08-27T12:30:47.101Z] [OK   ] [22/32] UPDATED: "PEARL POSITION - PINK" (SKU: M0126789)
+[2026-08-27T12:30:48.483Z] [OK   ] [23/32] UPDATED: "PEARL POSITION - GOLDEN" (SKU: M0126791)
+[2026-08-27T12:30:49.980Z] [OK   ] [24/32] UPDATED: "PEARL POSITION - FIROZE" (SKU: M0126790)
+[2026-08-27T12:30:51.642Z] [OK   ] [25/32] UPDATED: "7 FISHCUT-18-19 - NAVY" (SKU: M0126843)
+[2026-08-27T12:30:53.820Z] [OK   ] [26/32] UPDATED: "MB-37 - GOLDEN" (SKU: M0126887)
+[2026-08-27T12:30:55.364Z] [OK   ] [27/32] UPDATED: "CT-79 - ONION" (SKU: M0126888)
+[2026-08-27T12:30:57.439Z] [WARN ] Failed to publish product 10552400838840 to Online Store: read ECONNRESET
+[2026-08-27T12:30:57.440Z] [OK   ] [28/32] CREATED: "CT-79 - IVORY" (SKU: M0126956)
+[2026-08-27T12:30:59.115Z] [OK   ] [29/32] UPDATED: "SSS-4096S - PINK" (SKU: M0126889)
+[2026-08-27T12:31:00.749Z] [OK   ] [30/32] UPDATED: "SSS-4079S - PINK" (SKU: M0126890)
+[2026-08-27T12:31:03.110Z] [OK   ] [31/32] UPDATED: "SSS-4067S - PINK" (SKU: M0126891)
+[2026-08-27T12:31:04.636Z] [OK   ] [32/32] UPDATED: "MM-33-399 - COFFEE" (SKU: M0126907)
+[2026-08-27T12:31:05.238Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T12:31:05.239Z] [INFO ]   Sync Complete in 59.2s
+[2026-08-27T12:31:05.239Z] [INFO ]   ✅ Created : 7
+[2026-08-27T12:31:05.240Z] [INFO ]   🔄 Updated : 25
+[2026-08-27T12:31:05.241Z] [INFO ]   ⏭️  Skipped : 0
+[2026-08-27T12:31:05.242Z] [INFO ]   ❌ Errors  : 0
+[2026-08-27T12:31:05.243Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T18:37:51.465Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T18:37:51.468Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-27T18:37:51.468Z] [INFO ] ══════════════════════════════════════════
+[2026-08-27T18:37:51.468Z] [INFO ] Calling iNext ERP API...
+[2026-08-27T18:38:03.520Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-08-27T18:38:03.521Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-08-27T18:38:03.522Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.

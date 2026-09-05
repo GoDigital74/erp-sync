@@ -19,7 +19,8 @@ inext-sync/
     ├── inext.js          ← Calls iNext ERP API, returns products
     ├── mapper.js         ← Maps ERP fields → Shopify fields
     ├── shopify.js        ← Shopify API: create/update products
-    └── sync.js           ← Main orchestrator (run this)
+    ├── sync.js           ← Product sync orchestrator
+    └── webhook.js        ← Receives purchases and creates Shopify orders
 ```
 
 ## How It Works
@@ -27,6 +28,12 @@ inext-sync/
 ```
 iNext ERP API  →  mapper.js  →  Shopify Admin API
 (GET products)    (transform)   (create/update)
+```
+
+Purchases made in the client/server system follow the reverse direction:
+
+```
+Client/server system  →  POST /webhooks/order  →  Shopify order + inventory
 ```
 
 1. Calls `proc_get_items_for_shopify` with DB credentials
@@ -49,6 +56,41 @@ node src/sync.js
 # or
 npm start
 ```
+
+## Receive Purchases
+
+Start the purchase receiver separately:
+
+```bash
+npm run start-webhook
+```
+
+Configure these optional environment variables in `.env`:
+
+```env
+WEBHOOK_HOST=0.0.0.0
+WEBHOOK_PORT=3000
+WEBHOOK_SECRET=use-the-same-secret-on-the-sender
+```
+
+The client/server system should send a JSON `POST` request to
+`/webhooks/order`. The minimum payload is:
+
+```json
+{
+    "order_id": "INV-1001",
+    "email": "customer@example.com",
+    "items": [
+        { "sku": "ITEM-SKU-001", "quantity": 1 }
+    ]
+}
+```
+
+`id`, `orderId`, `invoice_no`, `products`, `line_items`, `itemcode`, and
+`Itemcode` are also accepted aliases. The SKU must already exist in Shopify.
+The receiver stores the source order ID as `external_order_id`, so retries do
+not create duplicate Shopify orders. When `WEBHOOK_SECRET` is configured,
+send `X-Webhook-Signature: sha256=<hex HMAC-SHA256 of the raw request body>`.
 
 ## Test API Connection
 

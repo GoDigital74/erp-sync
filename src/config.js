@@ -14,5 +14,10 @@ module.exports = {
     shopDomain: process.env.SHOPIFY_SHOP_DOMAIN,
     apiKey: process.env.SHOPIFY_API_KEY,
     apiSecret: process.env.SHOPIFY_API_SECRET,
-  }
+  },
+  webhook: {
+    host: process.env.WEBHOOK_HOST || '0.0.0.0',
+    port: parseInt(process.env.WEBHOOK_PORT || '3000', 10),
+    secret: process.env.WEBHOOK_SECRET,
+  },
 };

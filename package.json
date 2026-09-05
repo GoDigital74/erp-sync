@@ -5,6 +5,7 @@
   "main": "src/sync.js",
   "scripts": {
     "start": "node src/sync.js",
+    "start-webhook": "node src/webhook.js",
     "test-api": "node test-api.js",
     "dev": "node --watch src/sync.js"
   },

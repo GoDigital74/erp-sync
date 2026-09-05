@@ -144,4 +144,57 @@ async function updateProduct(token, shopifyId, payload) {
   return res.data.product;
 }
 
-module.exports = { getAccessToken, getExistingProducts, createProduct, updateProduct };
+async function getExistingVariants(token) {
+  const products = [];
+  let url = `https://${config.shopify.shopDomain}/admin/api/2024-01/products.json?limit=250&fields=id,variants`;
+
+  while (url) {
+    const res = await axios.get(url, {
+      headers: { 'X-Shopify-Access-Token': token }
+    });
+    products.push(...(res.data.products || []));
+
+    const link = res.headers['link'] || '';
+    const next = link.match(/<([^>]+)>;\s*rel="next"/);
+    url = next ? next[1] : null;
+  }
+
+  const variantMap = {};
+  for (const product of products) {
+    for (const variant of (product.variants || [])) {
+      if (variant.sku) variantMap[variant.sku] = variant.id;
+    }
+  }
+  return variantMap;
+}
+
+async function findOrderByExternalId(token, externalId) {
+  const res = await axios.get(
+    `https://${config.shopify.shopDomain}/admin/api/2024-01/orders.json?status=any&limit=250&fields=id,note_attributes`,
+    { headers: { 'X-Shopify-Access-Token': token } }
+  );
+  return (res.data.orders || []).find((order) =>
+    (order.note_attributes || []).some((attribute) =>
+      attribute.name === 'external_order_id' && attribute.value === String(externalId)
+    )
+  );
+}
+
+async function createOrder(token, payload) {
+  const res = await axios.post(
+    `https://${config.shopify.shopDomain}/admin/api/2024-01/orders.json`,
+    { order: payload },
+    { headers: { 'X-Shopify-Access-Token': token, 'Content-Type': 'application/json' } }
+  );
+  return res.data.order;
+}
+
+module.exports = {
+  getAccessToken,
+  getExistingProducts,
+  getExistingVariants,
+  findOrderByExternalId,
+  createProduct,
+  updateProduct,
+  createOrder,
+};

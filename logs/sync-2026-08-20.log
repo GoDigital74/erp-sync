@@ -1,0 +1,78 @@
+[2026-08-20T11:10:17.196Z] [INFO ] ══════════════════════════════════════════
+[2026-08-20T11:10:17.275Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-20T11:10:17.277Z] [INFO ] ══════════════════════════════════════════
+[2026-08-20T11:10:17.278Z] [INFO ] Calling iNext ERP API...
+[2026-08-20T11:10:21.804Z] [OK   ] iNext API returned 23 products
+[2026-08-20T11:10:21.805Z] [INFO ] ERP fields available: Itemcode, ItemId, ItemMRP, ItemWSP, ItemEXP, PurchasePrice, ArticleId, ArticleNo, Description, ExtDescription, ArticleShortName, UomId, UomName, GstUQC, UomType, CodingType, ArticleStockType, InvDepartmentId, InvDepartmentName, InvDepartmentShortName, InvCategoryId, InvCategoryName, InvCategoryShortName, InvSubCategoryId, InvSubCategoryName, InvSubCategoryShortName, Para1Id, Para1Name, Para1ShortName, Para2Id, Para2Name, Para2ShortName, Para3Id, Para3Name, Para3ShortName, Para4Id, Para4Name, Para4ShortName, Para5Id, Para5Name, Para5ShortName, Para6Id, Para6Name, Para6ShortName, ExtCategoryName, PurPartyId, SupplierName, SupplierShortName, SupplierAlias, GstClassification, HSNCode, StockQty
+[2026-08-20T11:10:21.806Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-08-20T11:10:21.806Z] [INFO ] Loading existing Shopify products...
+[2026-08-20T11:10:23.110Z] [INFO ] Found 23 existing SKUs on Shopify
+[2026-08-20T11:10:23.883Z] [OK   ] [1/23] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126774)
+[2026-08-20T11:10:29.159Z] [OK   ] [2/23] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126775)
+[2026-08-20T11:10:30.348Z] [OK   ] [3/23] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126772)
+[2026-08-20T11:10:31.516Z] [OK   ] [4/23] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126773)
+[2026-08-20T11:10:32.702Z] [OK   ] [5/23] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126770)
+[2026-08-20T11:10:33.898Z] [OK   ] [6/23] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126771)
+[2026-08-20T11:10:35.070Z] [OK   ] [7/23] UPDATED: "ZEBRA MULTI - BLUE" (SKU: M0126776)
+[2026-08-20T11:10:36.327Z] [OK   ] [8/23] UPDATED: "ZEBRA MULTI - GOLDEN" (SKU: M0126778)
+[2026-08-20T11:10:37.510Z] [OK   ] [9/23] UPDATED: "ZEBRA MULTI - PISTA" (SKU: M0126777)
+[2026-08-20T11:10:38.706Z] [OK   ] [10/23] UPDATED: "ZEBRA MULTI - BUTTER" (SKU: M0126779)
+[2026-08-20T11:10:39.916Z] [OK   ] [11/23] UPDATED: "ZEBRA GOLDEN - PINK" (SKU: M0126781)
+[2026-08-20T11:10:41.084Z] [OK   ] [12/23] UPDATED: "ZEBRA GOLDEN - PURPLE" (SKU: M0126782)
+[2026-08-20T11:10:42.242Z] [OK   ] [13/23] UPDATED: "ZEBRA GOLDEN - BLUE" (SKU: M0126783)
+[2026-08-20T11:10:43.417Z] [OK   ] [14/23] UPDATED: "ZEBRA GOLDEN - GOLDEN" (SKU: M0126780)
+[2026-08-20T11:10:44.629Z] [OK   ] [15/23] UPDATED: "DESIGNER POSITION - YELLOW" (SKU: M0126786)
+[2026-08-20T11:10:45.805Z] [OK   ] [16/23] UPDATED: "DESIGNER POSITION - FIROZE" (SKU: M0126784)
+[2026-08-20T11:10:47.122Z] [OK   ] [17/23] UPDATED: "DESIGNER POSITION - RED" (SKU: M0126787)
+[2026-08-20T11:10:48.427Z] [OK   ] [18/23] UPDATED: "DESIGNER POSITION - RED" (SKU: M0126788)
+[2026-08-20T11:10:50.016Z] [OK   ] [19/23] UPDATED: "DESIGNER POSITION - RANI" (SKU: M0126785)
+[2026-08-20T11:10:51.996Z] [OK   ] [20/23] UPDATED: "PEARL POSITION - YELLOW" (SKU: M0126792)
+[2026-08-20T11:10:54.571Z] [OK   ] [21/23] UPDATED: "PEARL POSITION - PINK" (SKU: M0126789)
+[2026-08-20T11:10:56.988Z] [OK   ] [22/23] UPDATED: "PEARL POSITION - GOLDEN" (SKU: M0126791)
+[2026-08-20T11:10:59.059Z] [OK   ] [23/23] UPDATED: "PEARL POSITION - FIROZE" (SKU: M0126790)
+[2026-08-20T11:10:59.664Z] [INFO ] ══════════════════════════════════════════
+[2026-08-20T11:10:59.665Z] [INFO ]   Sync Complete in 42.5s
+[2026-08-20T11:10:59.666Z] [INFO ]   ✅ Created : 0
+[2026-08-20T11:10:59.666Z] [INFO ]   🔄 Updated : 23
+[2026-08-20T11:10:59.667Z] [INFO ]   ⏭️  Skipped : 0
+[2026-08-20T11:10:59.668Z] [INFO ]   ❌ Errors  : 0
+[2026-08-20T11:10:59.668Z] [INFO ] ══════════════════════════════════════════
+[2026-08-20T13:59:06.409Z] [INFO ] ══════════════════════════════════════════
+[2026-08-20T13:59:06.412Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-08-20T13:59:06.413Z] [INFO ] ══════════════════════════════════════════
+[2026-08-20T13:59:06.414Z] [INFO ] Calling iNext ERP API...
+[2026-08-20T13:59:11.429Z] [OK   ] iNext API returned 23 products
+[2026-08-20T13:59:11.430Z] [INFO ] ERP fields available: Itemcode, ItemId, ItemMRP, ItemWSP, ItemEXP, PurchasePrice, ArticleId, ArticleNo, Description, ExtDescription, ArticleShortName, UomId, UomName, GstUQC, UomType, CodingType, ArticleStockType, InvDepartmentId, InvDepartmentName, InvDepartmentShortName, InvCategoryId, InvCategoryName, InvCategoryShortName, InvSubCategoryId, InvSubCategoryName, InvSubCategoryShortName, Para1Id, Para1Name, Para1ShortName, Para2Id, Para2Name, Para2ShortName, Para3Id, Para3Name, Para3ShortName, Para4Id, Para4Name, Para4ShortName, Para5Id, Para5Name, Para5ShortName, Para6Id, Para6Name, Para6ShortName, ExtCategoryName, PurPartyId, SupplierName, SupplierShortName, SupplierAlias, GstClassification, HSNCode, StockQty
+[2026-08-20T13:59:11.431Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-08-20T13:59:11.432Z] [INFO ] Loading existing Shopify products...
+[2026-08-20T13:59:12.752Z] [INFO ] Found 23 existing SKUs on Shopify
+[2026-08-20T13:59:13.400Z] [OK   ] [1/23] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126774)
+[2026-08-20T13:59:15.397Z] [OK   ] [2/23] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126775)
+[2026-08-20T13:59:16.906Z] [OK   ] [3/23] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126772)
+[2026-08-20T13:59:18.045Z] [OK   ] [4/23] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126773)
+[2026-08-20T13:59:19.233Z] [OK   ] [5/23] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126770)
+[2026-08-20T13:59:20.643Z] [OK   ] [6/23] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126771)
+[2026-08-20T13:59:21.873Z] [OK   ] [7/23] UPDATED: "ZEBRA MULTI - BLUE" (SKU: M0126776)
+[2026-08-20T13:59:23.219Z] [OK   ] [8/23] UPDATED: "ZEBRA MULTI - GOLDEN" (SKU: M0126778)
+[2026-08-20T13:59:24.483Z] [OK   ] [9/23] UPDATED: "ZEBRA MULTI - PISTA" (SKU: M0126777)
+[2026-08-20T13:59:25.643Z] [OK   ] [10/23] UPDATED: "ZEBRA MULTI - BUTTER" (SKU: M0126779)
+[2026-08-20T13:59:26.809Z] [OK   ] [11/23] UPDATED: "ZEBRA GOLDEN - PINK" (SKU: M0126781)
+[2026-08-20T13:59:28.002Z] [OK   ] [12/23] UPDATED: "ZEBRA GOLDEN - PURPLE" (SKU: M0126782)
+[2026-08-20T13:59:29.203Z] [OK   ] [13/23] UPDATED: "ZEBRA GOLDEN - BLUE" (SKU: M0126783)
+[2026-08-20T13:59:30.402Z] [OK   ] [14/23] UPDATED: "ZEBRA GOLDEN - GOLDEN" (SKU: M0126780)
+[2026-08-20T13:59:31.683Z] [OK   ] [15/23] UPDATED: "DESIGNER POSITION - YELLOW" (SKU: M0126786)
+[2026-08-20T13:59:32.879Z] [OK   ] [16/23] UPDATED: "DESIGNER POSITION - FIROZE" (SKU: M0126784)
+[2026-08-20T13:59:34.082Z] [OK   ] [17/23] UPDATED: "DESIGNER POSITION - RED" (SKU: M0126787)
+[2026-08-20T13:59:35.296Z] [OK   ] [18/23] UPDATED: "DESIGNER POSITION - RED" (SKU: M0126788)
+[2026-08-20T13:59:36.476Z] [OK   ] [19/23] UPDATED: "DESIGNER POSITION - RANI" (SKU: M0126785)
+[2026-08-20T13:59:37.764Z] [OK   ] [20/23] UPDATED: "PEARL POSITION - YELLOW" (SKU: M0126792)
+[2026-08-20T13:59:39.043Z] [OK   ] [21/23] UPDATED: "PEARL POSITION - PINK" (SKU: M0126789)
+[2026-08-20T13:59:40.322Z] [OK   ] [22/23] UPDATED: "PEARL POSITION - GOLDEN" (SKU: M0126791)
+[2026-08-20T13:59:41.523Z] [OK   ] [23/23] UPDATED: "PEARL POSITION - FIROZE" (SKU: M0126790)
+[2026-08-20T13:59:42.127Z] [INFO ] ══════════════════════════════════════════
+[2026-08-20T13:59:42.128Z] [INFO ]   Sync Complete in 35.7s
+[2026-08-20T13:59:42.128Z] [INFO ]   ✅ Created : 0
+[2026-08-20T13:59:42.129Z] [INFO ]   🔄 Updated : 23
+[2026-08-20T13:59:42.130Z] [INFO ]   ⏭️  Skipped : 0
+[2026-08-20T13:59:42.130Z] [INFO ]   ❌ Errors  : 0
+[2026-08-20T13:59:42.131Z] [INFO ] ══════════════════════════════════════════

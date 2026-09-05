@@ -1,0 +1,220 @@
+[2026-09-05T07:52:50.186Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T07:52:50.188Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-09-05T07:52:50.189Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T07:52:50.190Z] [INFO ] Calling iNext ERP API...
+[2026-09-05T07:53:00.607Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-09-05T07:53:00.607Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-09-05T07:53:00.613Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-09-05T07:56:31.586Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T07:56:31.588Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-09-05T07:56:31.588Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T07:56:31.589Z] [INFO ] Calling iNext ERP API...
+[2026-09-05T07:56:41.893Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-09-05T07:56:41.894Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-09-05T07:56:41.895Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.
+[2026-09-05T08:29:07.179Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T08:29:07.181Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-09-05T08:29:07.182Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T08:29:07.182Z] [INFO ] Calling iNext ERP API...
+[2026-09-05T08:29:08.754Z] [OK   ] iNext API returned 69 products
+[2026-09-05T08:29:08.760Z] [INFO ] ERP fields available: Itemcode, ItemId, ItemMRP, ItemWSP, ItemEXP, PurchasePrice, ArticleId, ArticleNo, Description, ExtDescription, ArticleShortName, UomId, UomName, GstUQC, UomType, CodingType, ArticleStockType, InvDepartmentId, InvDepartmentName, InvDepartmentShortName, InvCategoryId, InvCategoryName, InvCategoryShortName, InvSubCategoryId, InvSubCategoryName, InvSubCategoryShortName, Para1Id, Para1Name, Para1ShortName, Para2Id, Para2Name, Para2ShortName, Para3Id, Para3Name, Para3ShortName, Para4Id, Para4Name, Para4ShortName, Para5Id, Para5Name, Para5ShortName, Para6Id, Para6Name, Para6ShortName, ExtCategoryName, PurPartyId, SupplierName, SupplierShortName, SupplierAlias, GstClassification, HSNCode, StockQty
+[2026-09-05T08:29:08.761Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-09-05T08:29:08.761Z] [INFO ] Loading existing Shopify products...
+[2026-09-05T08:29:10.562Z] [INFO ] Found 134 existing SKUs on Shopify
+[2026-09-05T08:29:13.931Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:13.932Z] [OK   ] [1/69] CREATED: "A4482 - CREAM" (SKU: M012623)
+[2026-09-05T08:29:17.431Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:17.432Z] [OK   ] [2/69] CREATED: "ZW-4533 - BLUE" (SKU: M0126233)
+[2026-09-05T08:29:22.598Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:22.599Z] [OK   ] [3/69] CREATED: "ZW-4533 - RED" (SKU: M0126236)
+[2026-09-05T08:29:27.325Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:27.326Z] [OK   ] [4/69] CREATED: "SBA-398 - NAVY" (SKU: M0126237)
+[2026-09-05T08:29:30.259Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:30.259Z] [OK   ] [5/69] CREATED: "SBA-398 - BROWN" (SKU: M0126238)
+[2026-09-05T08:29:32.655Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:32.656Z] [OK   ] [6/69] CREATED: "SBA-398 - ONION" (SKU: M0126239)
+[2026-09-05T08:29:34.898Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:34.898Z] [OK   ] [7/69] CREATED: "PVP-21028 - GOLDEN" (SKU: M0126414)
+[2026-09-05T08:29:37.135Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:37.136Z] [OK   ] [8/69] CREATED: "11070-B-5661 - CREAM" (SKU: M0126429)
+[2026-09-05T08:29:39.152Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:39.153Z] [OK   ] [9/69] CREATED: "11070-B-5661 - FIROZE" (SKU: M0126430)
+[2026-09-05T08:29:41.445Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:41.446Z] [OK   ] [10/69] CREATED: "11070-B-5661 - PINK" (SKU: M0126431)
+[2026-09-05T08:29:43.595Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:43.595Z] [OK   ] [11/69] CREATED: "3128 5065 - GREEN" (SKU: M0126432)
+[2026-09-05T08:29:45.813Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:45.814Z] [OK   ] [12/69] CREATED: "3128 5065 - GREEN" (SKU: M0126433)
+[2026-09-05T08:29:47.968Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:47.969Z] [OK   ] [13/69] CREATED: "3164 5065 - RANI" (SKU: M0126434)
+[2026-09-05T08:29:50.012Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:50.013Z] [OK   ] [14/69] CREATED: "1080 6327 - BLACK" (SKU: M0126442)
+[2026-09-05T08:29:52.209Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:52.210Z] [OK   ] [15/69] CREATED: "1080 6327 - GREEN" (SKU: M0126443)
+[2026-09-05T08:29:54.248Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:54.249Z] [OK   ] [16/69] CREATED: "SSV-34807 - RED" (SKU: M0126507)
+[2026-09-05T08:29:56.403Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:56.404Z] [OK   ] [17/69] CREATED: "RAJWADI - CREAM" (SKU: M0126591)
+[2026-09-05T08:29:58.503Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:29:58.504Z] [OK   ] [18/69] CREATED: "RAJWADI - ORENGE" (SKU: M0126592)
+[2026-09-05T08:30:00.655Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:00.656Z] [OK   ] [19/69] CREATED: "RAJWADI - ORENGE" (SKU: M0126593)
+[2026-09-05T08:30:02.899Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:02.900Z] [OK   ] [20/69] CREATED: "RAJWADI - ORENGE" (SKU: M0126594)
+[2026-09-05T08:30:04.990Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:04.991Z] [OK   ] [21/69] CREATED: "RAJWADI - BLUE" (SKU: M0126595)
+[2026-09-05T08:30:07.216Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:07.216Z] [OK   ] [22/69] CREATED: "RAJWADI - GREEN" (SKU: M0126596)
+[2026-09-05T08:30:09.738Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:09.739Z] [OK   ] [23/69] CREATED: "19277 5055 - COFFEE" (SKU: M012672)
+[2026-09-05T08:30:11.123Z] [OK   ] [24/69] UPDATED: "SSS-4058S - RED" (SKU: M0126722)
+[2026-09-05T08:30:13.455Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:13.456Z] [OK   ] [25/69] CREATED: "MM-102-1373 - GOLD" (SKU: M0126723)
+[2026-09-05T08:30:14.879Z] [OK   ] [26/69] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126770)
+[2026-09-05T08:30:16.080Z] [OK   ] [27/69] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126771)
+[2026-09-05T08:30:17.236Z] [OK   ] [28/69] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126772)
+[2026-09-05T08:30:18.399Z] [OK   ] [29/69] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126773)
+[2026-09-05T08:30:19.641Z] [OK   ] [30/69] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126774)
+[2026-09-05T08:30:20.976Z] [OK   ] [31/69] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126775)
+[2026-09-05T08:30:22.157Z] [OK   ] [32/69] UPDATED: "ZEBRA MULTI - BLUE" (SKU: M0126776)
+[2026-09-05T08:30:23.537Z] [OK   ] [33/69] UPDATED: "ZEBRA MULTI - PISTA" (SKU: M0126777)
+[2026-09-05T08:30:24.712Z] [OK   ] [34/69] UPDATED: "ZEBRA MULTI - GOLDEN" (SKU: M0126778)
+[2026-09-05T08:30:25.943Z] [OK   ] [35/69] UPDATED: "ZEBRA MULTI - BUTTER" (SKU: M0126779)
+[2026-09-05T08:30:27.183Z] [OK   ] [36/69] UPDATED: "ZEBRA GOLDEN - GOLDEN" (SKU: M0126780)
+[2026-09-05T08:30:28.386Z] [OK   ] [37/69] UPDATED: "ZEBRA GOLDEN - PINK" (SKU: M0126781)
+[2026-09-05T08:30:29.619Z] [OK   ] [38/69] UPDATED: "ZEBRA GOLDEN - PURPLE" (SKU: M0126782)
+[2026-09-05T08:30:30.852Z] [OK   ] [39/69] UPDATED: "ZEBRA GOLDEN - BLUE" (SKU: M0126783)
+[2026-09-05T08:30:32.975Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:32.976Z] [OK   ] [40/69] CREATED: "DESIGNER POSITION - FIROZE" (SKU: M0126784)
+[2026-09-05T08:30:35.145Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:35.145Z] [OK   ] [41/69] CREATED: "DESIGNER POSITION - RANI" (SKU: M0126785)
+[2026-09-05T08:30:37.315Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:37.316Z] [OK   ] [42/69] CREATED: "DESIGNER POSITION - YELLOW" (SKU: M0126786)
+[2026-09-05T08:30:39.485Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:39.485Z] [OK   ] [43/69] CREATED: "DESIGNER POSITION - RED" (SKU: M0126787)
+[2026-09-05T08:30:41.634Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:30:41.634Z] [OK   ] [44/69] CREATED: "DESIGNER POSITION - RED" (SKU: M0126788)
+[2026-09-05T08:30:42.902Z] [OK   ] [45/69] UPDATED: "PEARL POSITION - PINK" (SKU: M0126789)
+[2026-09-05T08:30:44.140Z] [OK   ] [46/69] UPDATED: "PEARL POSITION - FIROZE" (SKU: M0126790)
+[2026-09-05T08:30:45.316Z] [OK   ] [47/69] UPDATED: "PEARL POSITION - GOLDEN" (SKU: M0126791)
+[2026-09-05T08:30:46.580Z] [OK   ] [48/69] UPDATED: "PEARL POSITION - YELLOW" (SKU: M0126792)
+[2026-09-05T08:30:48.884Z] [OK   ] [49/69] UPDATED: "ARDJ175 - NAVY" (SKU: M0126822)
+[2026-09-05T08:30:50.577Z] [OK   ] [50/69] UPDATED: "KFJ066 - MEHENDI" (SKU: M0126824)
+[2026-09-05T08:30:52.924Z] [OK   ] [51/69] UPDATED: "ANK008 - PURPLE" (SKU: M0126826)
+[2026-09-05T08:30:54.549Z] [OK   ] [52/69] UPDATED: "KNS017 - GOLDEN" (SKU: M0126831)
+[2026-09-05T08:30:55.859Z] [OK   ] [53/69] UPDATED: "7 FISHCUT-18-19 - NAVY" (SKU: M0126843)
+[2026-09-05T08:30:57.512Z] [OK   ] [54/69] UPDATED: "19285 5055 - NAVY" (SKU: M0126859)
+[2026-09-05T08:30:59.212Z] [OK   ] [55/69] UPDATED: "19285 5055 - GOLDEN" (SKU: M0126860)
+[2026-09-05T08:31:01.442Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:31:01.443Z] [OK   ] [56/69] CREATED: "19285 5055 - ONION" (SKU: M0126861)
+[2026-09-05T08:31:04.500Z] [OK   ] [57/69] UPDATED: "S1-SA105 - GOLDEN" (SKU: M0126870)
+[2026-09-05T08:31:06.852Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:31:06.853Z] [OK   ] [58/69] CREATED: "MB-37 - GOLDEN" (SKU: M0126887)
+[2026-09-05T08:31:08.957Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:31:08.957Z] [OK   ] [59/69] CREATED: "CT-79 - ONION" (SKU: M0126888)
+[2026-09-05T08:31:10.257Z] [OK   ] [60/69] UPDATED: "SSS-4096S - PINK" (SKU: M0126889)
+[2026-09-05T08:31:11.517Z] [OK   ] [61/69] UPDATED: "SSS-4079S - PINK" (SKU: M0126890)
+[2026-09-05T08:31:12.822Z] [OK   ] [62/69] UPDATED: "SSS-4067S - PINK" (SKU: M0126891)
+[2026-09-05T08:31:15.448Z] [OK   ] [63/69] UPDATED: "A-177 - GREY" (SKU: M0126904)
+[2026-09-05T08:31:16.691Z] [OK   ] [64/69] UPDATED: "MM-33-399 - COFFEE" (SKU: M0126907)
+[2026-09-05T08:31:18.231Z] [OK   ] [65/69] UPDATED: "MM-102-1372 - BLACK" (SKU: M0126908)
+[2026-09-05T08:31:20.343Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:31:20.344Z] [OK   ] [66/69] CREATED: "BR-1514 - PINK" (SKU: M0126953)
+[2026-09-05T08:31:21.539Z] [OK   ] [67/69] UPDATED: "CT-79 - IVORY" (SKU: M0126956)
+[2026-09-05T08:31:23.603Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:31:23.604Z] [OK   ] [68/69] CREATED: "MB-47 - BROWN" (SKU: M0126957)
+[2026-09-05T08:31:25.652Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-09-05T08:31:25.653Z] [OK   ] [69/69] CREATED: "MB-89 - GREY" (SKU: M0126959)
+[2026-09-05T08:31:26.261Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T08:31:26.262Z] [INFO ]   Sync Complete in 139.1s
+[2026-09-05T08:31:26.262Z] [INFO ]   ✅ Created : 35
+[2026-09-05T08:31:26.263Z] [INFO ]   🔄 Updated : 34
+[2026-09-05T08:31:26.263Z] [INFO ]   ⏭️  Skipped : 0
+[2026-09-05T08:31:26.264Z] [INFO ]   ❌ Errors  : 0
+[2026-09-05T08:31:26.264Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T08:54:38.896Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T08:54:38.898Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-09-05T08:54:38.898Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T08:54:38.899Z] [INFO ] Calling iNext ERP API...
+[2026-09-05T08:54:40.601Z] [OK   ] iNext API returned 69 products
+[2026-09-05T08:54:40.602Z] [INFO ] ERP fields available: Itemcode, ItemId, ItemMRP, ItemWSP, ItemEXP, PurchasePrice, ArticleId, ArticleNo, Description, ExtDescription, ArticleShortName, UomId, UomName, GstUQC, UomType, CodingType, ArticleStockType, InvDepartmentId, InvDepartmentName, InvDepartmentShortName, InvCategoryId, InvCategoryName, InvCategoryShortName, InvSubCategoryId, InvSubCategoryName, InvSubCategoryShortName, Para1Id, Para1Name, Para1ShortName, Para2Id, Para2Name, Para2ShortName, Para3Id, Para3Name, Para3ShortName, Para4Id, Para4Name, Para4ShortName, Para5Id, Para5Name, Para5ShortName, Para6Id, Para6Name, Para6ShortName, ExtCategoryName, PurPartyId, SupplierName, SupplierShortName, SupplierAlias, GstClassification, HSNCode, StockQty
+[2026-09-05T08:54:40.603Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-09-05T08:54:40.603Z] [INFO ] Loading existing Shopify products...
+[2026-09-05T08:54:41.366Z] [INFO ] Found 161 existing SKUs on Shopify
+[2026-09-05T08:54:41.982Z] [OK   ] [1/69] UPDATED: "A4482 - CREAM" (SKU: M012623)
+[2026-09-05T08:54:43.265Z] [OK   ] [2/69] UPDATED: "ZW-4533 - BLUE" (SKU: M0126233)
+[2026-09-05T08:54:44.545Z] [OK   ] [3/69] UPDATED: "ZW-4533 - RED" (SKU: M0126236)
+[2026-09-05T08:54:45.765Z] [OK   ] [4/69] UPDATED: "SBA-398 - NAVY" (SKU: M0126237)
+[2026-09-05T08:54:47.103Z] [OK   ] [5/69] UPDATED: "SBA-398 - BROWN" (SKU: M0126238)
+[2026-09-05T08:54:48.315Z] [OK   ] [6/69] UPDATED: "SBA-398 - ONION" (SKU: M0126239)
+[2026-09-05T08:54:48.831Z] [INFO ] Order webhook listening on 0.0.0.0:3000/webhooks/order
+[2026-09-05T08:54:49.511Z] [OK   ] [7/69] UPDATED: "PVP-21028 - GOLDEN" (SKU: M0126414)
+[2026-09-05T08:54:50.693Z] [OK   ] [8/69] UPDATED: "11070-B-5661 - CREAM" (SKU: M0126429)
+[2026-09-05T08:54:51.903Z] [OK   ] [9/69] UPDATED: "11070-B-5661 - FIROZE" (SKU: M0126430)
+[2026-09-05T08:54:53.182Z] [OK   ] [10/69] UPDATED: "11070-B-5661 - PINK" (SKU: M0126431)
+[2026-09-05T08:54:54.462Z] [OK   ] [11/69] UPDATED: "3128 5065 - GREEN" (SKU: M0126432)
+[2026-09-05T08:54:55.744Z] [OK   ] [12/69] UPDATED: "3128 5065 - GREEN" (SKU: M0126433)
+[2026-09-05T08:54:57.025Z] [OK   ] [13/69] UPDATED: "3164 5065 - RANI" (SKU: M0126434)
+[2026-09-05T08:54:58.302Z] [OK   ] [14/69] UPDATED: "1080 6327 - BLACK" (SKU: M0126442)
+[2026-09-05T08:54:59.496Z] [OK   ] [15/69] UPDATED: "1080 6327 - GREEN" (SKU: M0126443)
+[2026-09-05T08:55:00.703Z] [OK   ] [16/69] UPDATED: "SSV-34807 - RED" (SKU: M0126507)
+[2026-09-05T08:55:01.985Z] [OK   ] [17/69] UPDATED: "RAJWADI - CREAM" (SKU: M0126591)
+[2026-09-05T08:55:03.264Z] [OK   ] [18/69] UPDATED: "RAJWADI - ORENGE" (SKU: M0126592)
+[2026-09-05T08:55:04.545Z] [OK   ] [19/69] UPDATED: "RAJWADI - ORENGE" (SKU: M0126593)
+[2026-09-05T08:55:05.825Z] [OK   ] [20/69] UPDATED: "RAJWADI - ORENGE" (SKU: M0126594)
+[2026-09-05T08:55:07.111Z] [OK   ] [21/69] UPDATED: "RAJWADI - BLUE" (SKU: M0126595)
+[2026-09-05T08:55:08.282Z] [OK   ] [22/69] UPDATED: "RAJWADI - GREEN" (SKU: M0126596)
+[2026-09-05T08:55:09.508Z] [OK   ] [23/69] UPDATED: "19277 5055 - COFFEE" (SKU: M012672)
+[2026-09-05T08:55:10.785Z] [OK   ] [24/69] UPDATED: "SSS-4058S - RED" (SKU: M0126722)
+[2026-09-05T08:55:11.995Z] [OK   ] [25/69] UPDATED: "MM-102-1373 - GOLD" (SKU: M0126723)
+[2026-09-05T08:55:13.325Z] [OK   ] [26/69] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126770)
+[2026-09-05T08:55:14.636Z] [OK   ] [27/69] UPDATED: "ZEBRA MULTI - GREEN" (SKU: M0126771)
+[2026-09-05T08:55:15.875Z] [OK   ] [28/69] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126772)
+[2026-09-05T08:55:17.071Z] [OK   ] [29/69] UPDATED: "ZEBRA MULTI - PURPLE" (SKU: M0126773)
+[2026-09-05T08:55:18.467Z] [OK   ] [30/69] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126774)
+[2026-09-05T08:55:19.747Z] [OK   ] [31/69] UPDATED: "ZEBRA MULTI - PINK" (SKU: M0126775)
+[2026-09-05T08:55:21.027Z] [OK   ] [32/69] UPDATED: "ZEBRA MULTI - BLUE" (SKU: M0126776)
+[2026-09-05T08:55:22.307Z] [OK   ] [33/69] UPDATED: "ZEBRA MULTI - PISTA" (SKU: M0126777)
+[2026-09-05T08:55:23.584Z] [OK   ] [34/69] UPDATED: "ZEBRA MULTI - GOLDEN" (SKU: M0126778)
+[2026-09-05T08:55:24.866Z] [OK   ] [35/69] UPDATED: "ZEBRA MULTI - BUTTER" (SKU: M0126779)
+[2026-09-05T08:55:26.145Z] [OK   ] [36/69] UPDATED: "ZEBRA GOLDEN - GOLDEN" (SKU: M0126780)
+[2026-09-05T08:55:27.426Z] [OK   ] [37/69] UPDATED: "ZEBRA GOLDEN - PINK" (SKU: M0126781)
+[2026-09-05T08:55:28.712Z] [OK   ] [38/69] UPDATED: "ZEBRA GOLDEN - PURPLE" (SKU: M0126782)
+[2026-09-05T08:55:30.353Z] [OK   ] [39/69] UPDATED: "ZEBRA GOLDEN - BLUE" (SKU: M0126783)
+[2026-09-05T08:55:31.583Z] [OK   ] [40/69] UPDATED: "DESIGNER POSITION - FIROZE" (SKU: M0126784)
+[2026-09-05T08:55:32.864Z] [OK   ] [41/69] UPDATED: "DESIGNER POSITION - RANI" (SKU: M0126785)
+[2026-09-05T08:55:34.019Z] [OK   ] [42/69] UPDATED: "DESIGNER POSITION - YELLOW" (SKU: M0126786)
+[2026-09-05T08:55:35.918Z] [OK   ] [43/69] UPDATED: "DESIGNER POSITION - RED" (SKU: M0126787)
+[2026-09-05T08:55:37.257Z] [OK   ] [44/69] UPDATED: "DESIGNER POSITION - RED" (SKU: M0126788)
+[2026-09-05T08:55:38.465Z] [OK   ] [45/69] UPDATED: "PEARL POSITION - PINK" (SKU: M0126789)
+[2026-09-05T08:55:39.736Z] [OK   ] [46/69] UPDATED: "PEARL POSITION - FIROZE" (SKU: M0126790)
+[2026-09-05T08:55:40.925Z] [OK   ] [47/69] UPDATED: "PEARL POSITION - GOLDEN" (SKU: M0126791)
+[2026-09-05T08:55:42.178Z] [OK   ] [48/69] UPDATED: "PEARL POSITION - YELLOW" (SKU: M0126792)
+[2026-09-05T08:55:43.418Z] [OK   ] [49/69] UPDATED: "ARDJ175 - NAVY" (SKU: M0126822)
+[2026-09-05T08:55:44.705Z] [OK   ] [50/69] UPDATED: "KFJ066 - MEHENDI" (SKU: M0126824)
+[2026-09-05T08:55:45.923Z] [OK   ] [51/69] UPDATED: "ANK008 - PURPLE" (SKU: M0126826)
+[2026-09-05T08:55:47.256Z] [OK   ] [52/69] UPDATED: "KNS017 - GOLDEN" (SKU: M0126831)
+[2026-09-05T08:55:48.547Z] [OK   ] [53/69] UPDATED: "7 FISHCUT-18-19 - NAVY" (SKU: M0126843)
+[2026-09-05T08:55:49.976Z] [OK   ] [54/69] UPDATED: "19285 5055 - NAVY" (SKU: M0126859)
+[2026-09-05T08:55:51.256Z] [OK   ] [55/69] UPDATED: "19285 5055 - GOLDEN" (SKU: M0126860)
+[2026-09-05T08:55:52.536Z] [OK   ] [56/69] UPDATED: "19285 5055 - ONION" (SKU: M0126861)
+[2026-09-05T08:55:53.717Z] [OK   ] [57/69] UPDATED: "S1-SA105 - GOLDEN" (SKU: M0126870)
+[2026-09-05T08:55:54.946Z] [OK   ] [58/69] UPDATED: "MB-37 - GOLDEN" (SKU: M0126887)
+[2026-09-05T08:55:56.227Z] [OK   ] [59/69] UPDATED: "CT-79 - ONION" (SKU: M0126888)
+[2026-09-05T08:55:57.496Z] [OK   ] [60/69] UPDATED: "SSS-4096S - PINK" (SKU: M0126889)
+[2026-09-05T08:55:58.787Z] [OK   ] [61/69] UPDATED: "SSS-4079S - PINK" (SKU: M0126890)
+[2026-09-05T08:56:00.063Z] [OK   ] [62/69] UPDATED: "SSS-4067S - PINK" (SKU: M0126891)
+[2026-09-05T08:56:01.336Z] [OK   ] [63/69] UPDATED: "A-177 - GREY" (SKU: M0126904)
+[2026-09-05T08:56:02.616Z] [OK   ] [64/69] UPDATED: "MM-33-399 - COFFEE" (SKU: M0126907)
+[2026-09-05T08:56:03.901Z] [OK   ] [65/69] UPDATED: "MM-102-1372 - BLACK" (SKU: M0126908)
+[2026-09-05T08:56:05.182Z] [OK   ] [66/69] UPDATED: "BR-1514 - PINK" (SKU: M0126953)
+[2026-09-05T08:56:06.934Z] [OK   ] [67/69] UPDATED: "CT-79 - IVORY" (SKU: M0126956)
+[2026-09-05T08:56:08.223Z] [OK   ] [68/69] UPDATED: "MB-47 - BROWN" (SKU: M0126957)
+[2026-09-05T08:56:09.500Z] [OK   ] [69/69] UPDATED: "MB-89 - GREY" (SKU: M0126959)
+[2026-09-05T08:56:10.101Z] [INFO ] ══════════════════════════════════════════
+[2026-09-05T08:56:10.101Z] [INFO ]   Sync Complete in 91.2s
+[2026-09-05T08:56:10.102Z] [INFO ]   ✅ Created : 0
+[2026-09-05T08:56:10.102Z] [INFO ]   🔄 Updated : 69
+[2026-09-05T08:56:10.103Z] [INFO ]   ⏭️  Skipped : 0
+[2026-09-05T08:56:10.103Z] [INFO ]   ❌ Errors  : 0
+[2026-09-05T08:56:10.104Z] [INFO ] ══════════════════════════════════════════
