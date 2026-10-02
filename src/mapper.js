@@ -24,6 +24,13 @@
  */
 
 /**
+ * Tag the sync puts on every product it creates. Only products with this tag
+ * get their title, description, price and tags updated from the ERP; products
+ * made by hand in Shopify only get their stock synced.
+ */
+const SYNC_TAG = 'inext-sync';
+
+/**
  * Converts a single iNext ERP item to a Shopify product payload.
  * @param {Object} erpItem - Raw item from iNext API
  * @returns {Object} Shopify-formatted product payload
@@ -44,7 +51,7 @@ function mapToShopifyProduct(erpItem) {
   const productType   = category;
   const imageUrl      = null;
   const subCategory   = erpItem.InvSubCategoryName || '';
-  const tags          = [category, subCategory, color].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i);
+  const tags          = [category, subCategory, color, SYNC_TAG].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i);
 
   // ── Build Shopify Payload ─────────────────────────────────────────────────
   const payload = {
@@ -62,6 +69,7 @@ function mapToShopifyProduct(erpItem) {
           sku,
           barcode:                String(barcode),
           inventory_management:  'shopify',
+          inventory_policy:      'deny',   // sold out at 0 — never oversell
           inventory_quantity:     parseInt(quantity) || 0,
           requires_shipping:      true,
         }
@@ -77,4 +85,4 @@ function mapToShopifyProduct(erpItem) {
   return payload;
 }
 
-module.exports = { mapToShopifyProduct };
+module.exports = { mapToShopifyProduct, SYNC_TAG };

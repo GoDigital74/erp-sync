@@ -22,7 +22,7 @@ let _cachedToken = null;
  */
 async function getAccessToken() {
   if (process.env.SHOPIFY_ADMIN_TOKEN) {
-    logger.info('Using permanent Shopify Admin token from .env');
+    if (!_cachedToken) logger.info('Using permanent Shopify Admin token from .env');
     _cachedToken = process.env.SHOPIFY_ADMIN_TOKEN;
     return _cachedToken;
   }
@@ -49,7 +49,7 @@ async function getAccessToken() {
 
 async function getExistingProducts(token) {
   const products = [];
-  let url = `https://${config.shopify.shopDomain}/admin/api/2024-01/products.json?limit=250&fields=id,variants`;
+  let url = `https://${config.shopify.shopDomain}/admin/api/2024-01/products.json?limit=250&fields=id,tags,variants`;
 
   while (url) {
     const res = await axios.get(url, {
@@ -66,7 +66,14 @@ async function getExistingProducts(token) {
   const skuMap = {};
   for (const p of products) {
     for (const v of (p.variants || [])) {
-      if (v.sku) skuMap[v.sku] = p.id;
+      if (v.sku) {
+        skuMap[v.sku] = {
+          productId: p.id,
+          tags: p.tags,
+          inventoryItemId: v.inventory_item_id,
+          quantity: v.inventory_quantity,
+        };
+      }
     }
   }
 
@@ -144,6 +151,39 @@ async function updateProduct(token, shopifyId, payload) {
   return res.data.product;
 }
 
+let _locationId = process.env.SHOPIFY_LOCATION_ID || null;
+
+/**
+ * The store's stock location. Discovered from an item's inventory level so the
+ * app doesn't need the read_locations scope; SHOPIFY_LOCATION_ID overrides it.
+ */
+async function getLocationId(token, inventoryItemId) {
+  if (_locationId) return _locationId;
+
+  const res = await axios.get(
+    `https://${config.shopify.shopDomain}/admin/api/2024-01/inventory_levels.json?inventory_item_ids=${inventoryItemId}`,
+    { headers: { 'X-Shopify-Access-Token': token } }
+  );
+  const level = (res.data.inventory_levels || [])[0];
+  if (!level) throw new Error(`No inventory location found for inventory item ${inventoryItemId}`);
+  _locationId = level.location_id;
+  logger.info(`Using Shopify location ${_locationId} for stock updates`);
+  return _locationId;
+}
+
+/**
+ * Sets the available stock of an item. Shopify ignores inventory_quantity on
+ * product updates, so this is the only way stock changes (e.g. POS sales) reach the store.
+ */
+async function setInventory(token, inventoryItemId, available) {
+  const locationId = await getLocationId(token, inventoryItemId);
+  await axios.post(
+    `https://${config.shopify.shopDomain}/admin/api/2024-01/inventory_levels/set.json`,
+    { location_id: locationId, inventory_item_id: inventoryItemId, available },
+    { headers: { 'X-Shopify-Access-Token': token, 'Content-Type': 'application/json' } }
+  );
+}
+
 async function getExistingVariants(token) {
   const products = [];
   let url = `https://${config.shopify.shopDomain}/admin/api/2024-01/products.json?limit=250&fields=id,variants`;
@@ -196,5 +236,6 @@ module.exports = {
   findOrderByExternalId,
   createProduct,
   updateProduct,
+  setInventory,
   createOrder,
 };

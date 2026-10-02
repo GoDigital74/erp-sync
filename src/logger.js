@@ -4,7 +4,8 @@ const path = require('path');
 const logDir = path.join(__dirname, '..', 'logs');
 if (!fs.existsSync(logDir)) fs.mkdirSync(logDir, { recursive: true });
 
-const logFile = path.join(logDir, `sync-${new Date().toISOString().split('T')[0]}.log`);
+// Picked on every write, so a sync left running for days starts a new file each day.
+const logFile = () => path.join(logDir, `sync-${new Date().toISOString().split('T')[0]}.log`);
 
 const format = (level, msg) => {
   const ts = new Date().toISOString();
@@ -12,7 +13,7 @@ const format = (level, msg) => {
 };
 
 const write = (line) => {
-  fs.appendFileSync(logFile, line + '\n');
+  fs.appendFileSync(logFile(), line + '\n');
 };
 
 const logger = {
