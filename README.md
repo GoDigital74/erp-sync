@@ -93,12 +93,25 @@ Run the sync on **one** PC only. Two PCs at once can create duplicate products.
    `npm install`.
 4. Test once: `npm start`. It should end with `Errors : 0` or
    `No changes: all N products already up to date`.
-5. Start with Windows: press `Win + R`, type `shell:startup`, and put a
-   shortcut to `auto-sync.bat` in the folder that opens.
-6. Settings → System → Power → Screen and sleep → sleep **Never**.
-7. Double-click `auto-sync.bat` and minimise the window.
-8. On the old PC: close its sync window and delete its shortcut from
-   `shell:startup`.
+5. Open **Task Scheduler** → **Create Task…** (not "Create Basic Task"):
+   - **General:** name `iNext Shopify auto sync`. Click **Change User or
+     Group…**, type `SYSTEM`, OK. It then runs from Windows start-up, without
+     anyone logging in and without a password.
+   - **Triggers → New:** Begin the task **At startup**, tick **Delay task
+     for 1 minute** (lets the internet connect first).
+   - **Actions → New:** Start a program. Program: `C:\inext-sync\auto-sync.bat`,
+     Start in: `C:\inext-sync`.
+   - **Conditions:** untick **Start the task only if the computer is on AC
+     power**.
+   - **Settings:** tick **If the task fails, restart every 1 minute**, untick
+     **Stop the task if it runs longer than 3 days**, and keep **Do not start a
+     new instance**.
+6. Right-click the task → **Run**. It runs hidden (no window); the newest file
+   in `logs` should get a `No changes` or `STOCK` line every 2 minutes.
+7. Settings → System → Power → Screen and sleep → sleep **Never**.
+8. Remove any other way it was started: delete `auto-sync.bat` shortcuts from
+   `shell:startup` on the shop PC, and on the old PC close its sync window and
+   delete its shortcut from `shell:startup`.
 
 Stock rules:
 
