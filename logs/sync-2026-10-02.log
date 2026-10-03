@@ -889,3 +889,10 @@
 [2026-10-02T16:12:28.151Z] [OK   ] iNext API returned 96 products
 [2026-10-02T16:12:28.151Z] [INFO ] Using permanent Shopify Admin token from .env
 [2026-10-02T16:12:29.092Z] [INFO ] No changes: all 96 products already up to date (2.1s)
+[2026-10-02T16:30:05.060Z] [INFO ] ══════════════════════════════════════════
+[2026-10-02T16:30:05.062Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-02T16:30:05.062Z] [INFO ] ══════════════════════════════════════════
+[2026-10-02T16:30:05.063Z] [INFO ] Calling iNext ERP API...
+[2026-10-02T16:30:10.150Z] [WARN ] iNext API: Database connection failed (0 products returned)
+[2026-10-02T16:30:10.151Z] [WARN ] No products returned from iNext ERP. Sync complete with nothing to do.
+[2026-10-02T16:30:10.152Z] [WARN ] → Ask the client to mark products for Shopify export in their ERP system.

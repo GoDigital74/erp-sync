@@ -12,6 +12,8 @@ inext-sync/
 ├── .env                  ← All credentials (never commit this)
 ├── package.json
 ├── test-api.js           ← Quick test to probe the iNext API
+├── auto-sync.bat         ← Double-click to run the sync non-stop
+├── auto-sync.ps1         ← Used by auto-sync.bat (restarts, no click-pause)
 ├── logs/                 ← Auto-generated daily log files
 ├── data/                 ← What the last sync saw per SKU (auto-generated)
 └── src/
@@ -79,6 +81,25 @@ on the online store within minutes. Change the interval with
 `SYNC_INTERVAL_MINUTES` in `.env` (minimum 1). Leave it running on a PC that
 stays on; `Ctrl+C` stops it.
 
+### Install on the shop PC
+
+Run the sync on **one** PC only. Two PCs at once can create duplicate products.
+
+1. Copy the whole `inext-sync` folder, **including `.env`**, to the shop PC
+   (e.g. `C:\inext-sync`) with a USB drive. `.env` holds the passwords; don't
+   send it by email or WhatsApp.
+2. Install Node.js (LTS) from https://nodejs.org.
+3. Open the folder, type `cmd` in the address bar, press Enter, then run
+   `npm install`.
+4. Test once: `npm start`. It should end with `Errors : 0` or
+   `No changes: all N products already up to date`.
+5. Start with Windows: press `Win + R`, type `shell:startup`, and put a
+   shortcut to `auto-sync.bat` in the folder that opens.
+6. Settings → System → Power → Screen and sleep → sleep **Never**.
+7. Double-click `auto-sync.bat` and minimise the window.
+8. On the old PC: close its sync window and delete its shortcut from
+   `shell:startup`.
+
 Stock rules:
 
 - **Sold at the POS** → the ERP's `StockQty` drops → Shopify stock is lowered
@@ -93,9 +114,9 @@ Stock rules:
 
 Only products tagged `inext-sync` get their title, description, price and tags
 updated from the ERP. The sync adds this tag to every product it creates.
-Products made by hand in Shopify have no tag, so they keep their own details
-and only their stock is synced. Remove the tag from a product to manage it by
-hand; add it to let the ERP manage it.
+Products that reached Shopify any other way have no tag, so they keep their
+own details and only their stock is synced. Remove the tag from a product to
+manage it by hand; add it to let the ERP manage it.
 
 ## Receive Purchases
 

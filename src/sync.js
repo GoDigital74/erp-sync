@@ -8,7 +8,7 @@
  *  4. For each ERP product:
  *     - If SKU is new → CREATE
  *     - If its details changed in the ERP since the last sync → UPDATE
- *       (only products tagged inext-sync; ones made by hand keep their details)
+ *       (only products tagged inext-sync; others keep their own details)
  *     - If it was sold or restocked at the POS → set its Shopify stock
  *  5. Log results summary
  *
@@ -17,6 +17,7 @@
  */
 
 require('dotenv').config();
+require('./http'); // hard time limit on every API call
 
 const crypto = require('crypto');
 const config = require('./config');
@@ -93,7 +94,7 @@ async function runSync() {
         inventoryItemId = existing.inventoryItemId;
         currentQty      = existing.quantity;
         newQty          = stockAfterSync(erpQty, currentQty, last.erpQty);
-        // Products made by hand in Shopify (no sync tag) only get stock updates.
+        // Products the sync didn't create (no sync tag) only get stock updates.
         if (hasSyncTag(existing.tags) && last.hash !== hash) {
           await updateProduct(token, existing.productId, payload);
           sentHash = hash;

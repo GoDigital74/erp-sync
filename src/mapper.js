@@ -26,7 +26,7 @@
 /**
  * Tag the sync puts on every product it creates. Only products with this tag
  * get their title, description, price and tags updated from the ERP; products
- * made by hand in Shopify only get their stock synced.
+ * the sync didn't create only get their stock synced.
  */
 const SYNC_TAG = 'inext-sync';
 
