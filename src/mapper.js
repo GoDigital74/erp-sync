@@ -70,7 +70,7 @@ function mapToShopifyProduct(erpItem) {
           barcode:                String(barcode),
           inventory_management:  'shopify',
           inventory_policy:      'deny',   // sold out at 0 — never oversell
-          inventory_quantity:     parseInt(quantity) || 0,
+          inventory_quantity:     Math.max(0, parseInt(quantity) || 0), // POS can go below 0; Shopify shouldn't
           requires_shipping:      true,
         }
       ]

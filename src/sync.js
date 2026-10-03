@@ -68,8 +68,7 @@ async function runSync() {
   const erpProducts = await fetchERPProducts();
 
   if (erpProducts.length === 0) {
-    logger.warn('No products returned from iNext ERP. Sync complete with nothing to do.');
-    logger.warn('→ Ask the client to mark products for Shopify export in their ERP system.');
+    logger.warn('Nothing to update; Shopify left as it is.');
     return;
   }
 
@@ -77,6 +76,14 @@ async function runSync() {
   const skuMap = await getExistingProducts(token);
   const state = syncState.load();
   let onlineOrders; // loaded only when a first-seen item needs it
+
+  // Synced products that iNext no longer lists can't get stock updates.
+  const sent = new Set(erpProducts.map((item) => item.Itemcode));
+  const missing = Object.keys(skuMap).filter((sku) => hasSyncTag(skuMap[sku].tags) && !sent.has(sku));
+  if (missing.length) {
+    logger.warn(`${missing.length} products on Shopify are missing from iNext's list, so their stock can't update `
+      + `(e.g. ${missing.slice(0, 3).join(', ')}). Check they are still marked for Shopify in iNext.`);
+  }
 
   for (let i = 0; i < erpProducts.length; i++) {
     const erpItem = erpProducts[i];
@@ -89,6 +96,8 @@ async function runSync() {
       const erpQty     = payload.product.variants[0].inventory_quantity;
       const hash       = detailsHash(payload);
       const last       = state[sku] || {};
+      // A row without a stock number says nothing about stock, so don't read it as 0.
+      const hasStock   = Number.isFinite(parseFloat(erpItem.StockQty));
 
       const existing = skuMap[sku];
       let inventoryItemId, currentQty, newQty;
@@ -97,10 +106,11 @@ async function runSync() {
       if (existing) {
         inventoryItemId = existing.inventoryItemId;
         currentQty      = existing.quantity;
-        if (last.erpQty === undefined && erpQty > currentQty && !onlineOrders) {
+        if (hasStock && last.erpQty === undefined && erpQty > currentQty && !onlineOrders) {
           onlineOrders = await getRecentOrderQuantities(token);
         }
-        newQty          = stockAfterSync(erpQty, currentQty, last.erpQty, onlineOrders?.[sku]);
+        newQty          = hasStock ? stockAfterSync(erpQty, currentQty, last.erpQty, onlineOrders?.[sku]) : currentQty;
+        if (!hasStock) logger.warn(`${label} iNext sent no stock number for SKU ${sku}; Shopify stock left as it is.`);
         // Products the sync didn't create (no sync tag) only get stock updates.
         if (hasSyncTag(existing.tags) && last.hash !== hash) {
           await updateProduct(token, existing.productId, payload);
@@ -128,7 +138,7 @@ async function runSync() {
         calledShopify = true;
       }
 
-      state[sku] = { erpQty, hash: sentHash };
+      state[sku] = { erpQty: hasStock ? erpQty : last.erpQty, hash: sentHash };
 
       if (calledShopify) await sleep(600);
       else results.skipped++;

@@ -49,11 +49,12 @@ async function fetchERPProducts() {
   const { status, message, data } = responseData;
 
   if (!status || !Array.isArray(data) || data.length === 0) {
-    logger.warn(`iNext API: ${message} (0 products returned)`);
+    logger.warn(`iNext sent no items: ${message}`);
     return [];
   }
 
-  logger.success(`iNext API returned ${data.length} products`);
+  // A count of items in iNext's list, not a stock number.
+  logger.success(`iNext sent ${data.length} item${data.length === 1 ? '' : 's'}`);
   return data;
 }
 
