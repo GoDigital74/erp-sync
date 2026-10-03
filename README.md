@@ -119,7 +119,9 @@ Stock rules:
   to match. At 0 the product shows as sold out and can't be bought online
   (every product is set to deny overselling).
 - **Returned or restocked at the POS** → the ERP stock goes up → Shopify stock
-  goes up by the same amount.
+  goes up by the same amount, so the piece can be bought again.
+- **First time the sync sees an item** (e.g. newly marked in iNext) → Shopify
+  is set to the POS stock, minus pieces in online orders from the last 30 days.
 - **Shopify lower than the ERP for any other reason** — usually a piece sold
   online that hasn't been billed at the POS yet — Shopify is left alone, so the
   piece isn't put back on sale.

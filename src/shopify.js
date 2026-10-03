@@ -184,6 +184,32 @@ async function setInventory(token, inventoryItemId, available) {
   );
 }
 
+/**
+ * Units per SKU in online orders from the last `days` days that weren't
+ * cancelled, so the sync doesn't put a piece back on sale that sold online.
+ */
+async function getRecentOrderQuantities(token, days = 30) {
+  const since = encodeURIComponent(new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString());
+  let url = `https://${config.shopify.shopDomain}/admin/api/2024-01/orders.json?status=any&limit=250&created_at_min=${since}&fields=cancelled_at,line_items`;
+  const quantities = {};
+
+  while (url) {
+    const res = await axios.get(url, { headers: { 'X-Shopify-Access-Token': token } });
+    for (const order of (res.data.orders || [])) {
+      if (order.cancelled_at) continue;
+      for (const item of (order.line_items || [])) {
+        if (item.sku) quantities[item.sku] = (quantities[item.sku] || 0) + item.quantity;
+      }
+    }
+
+    const link = res.headers['link'] || '';
+    const next = link.match(/<([^>]+)>;\s*rel="next"/);
+    url = next ? next[1] : null;
+  }
+
+  return quantities;
+}
+
 async function getExistingVariants(token) {
   const products = [];
   let url = `https://${config.shopify.shopDomain}/admin/api/2024-01/products.json?limit=250&fields=id,variants`;
@@ -233,6 +259,7 @@ module.exports = {
   getAccessToken,
   getExistingProducts,
   getExistingVariants,
+  getRecentOrderQuantities,
   findOrderByExternalId,
   createProduct,
   updateProduct,

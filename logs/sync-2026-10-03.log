@@ -222,3 +222,66 @@
 [2026-10-03T12:47:08.345Z] [INFO ] Calling iNext ERP API...
 [2026-10-03T12:47:09.356Z] [OK   ] iNext API returned 1 products
 [2026-10-03T12:47:11.068Z] [INFO ] No changes: all 1 products already up to date (2.7s)
+[2026-10-03T13:00:36.711Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:00:36.714Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T13:00:36.714Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:00:36.715Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T13:00:36.715Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:00:42.544Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:00:42.545Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T13:00:45.836Z] [INFO ] No changes: all 1 products already up to date (9.1s)
+[2026-10-03T13:15:16.922Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:15:16.925Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T13:15:16.925Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:15:16.926Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T13:15:16.927Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:15:22.639Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:15:22.640Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T13:15:25.598Z] [INFO ] No changes: all 1 products already up to date (8.7s)
+[2026-10-03T13:15:57.416Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:15:57.419Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T13:15:57.419Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:15:57.421Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:15:58.277Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:15:58.277Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T13:15:59.099Z] [INFO ] No changes: all 1 products already up to date (1.7s)
+[2026-10-03T13:16:04.769Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:16:04.772Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T13:16:04.772Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:16:04.773Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T13:16:04.774Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:16:05.573Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:16:05.574Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T13:16:06.418Z] [INFO ] No changes: all 1 products already up to date (1.6s)
+[2026-10-03T13:18:06.431Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:18:07.195Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:18:08.005Z] [INFO ] No changes: all 1 products already up to date (1.6s)
+[2026-10-03T13:20:08.019Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:20:08.790Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:20:09.548Z] [INFO ] No changes: all 1 products already up to date (1.5s)
+[2026-10-03T13:22:09.552Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:22:10.323Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:22:11.147Z] [INFO ] No changes: all 1 products already up to date (1.6s)
+[2026-10-03T13:24:25.400Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:24:25.402Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T13:24:25.403Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T13:24:25.404Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T13:24:25.404Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:24:26.310Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:24:26.315Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T13:24:27.096Z] [INFO ] No changes: all 1 products already up to date (1.7s)
+[2026-10-03T13:26:27.101Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:26:27.947Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:26:29.019Z] [INFO ] No changes: all 1 products already up to date (1.9s)
+[2026-10-03T13:28:29.035Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:28:29.951Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:28:31.012Z] [INFO ] No changes: all 1 products already up to date (2.0s)
+[2026-10-03T13:30:31.023Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:30:31.803Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:30:32.626Z] [INFO ] No changes: all 1 products already up to date (1.6s)
+[2026-10-03T13:32:32.627Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:32:33.424Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:32:34.276Z] [INFO ] No changes: all 1 products already up to date (1.6s)
+[2026-10-03T13:34:34.288Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T13:34:35.121Z] [OK   ] iNext API returned 1 products
+[2026-10-03T13:34:35.947Z] [INFO ] No changes: all 1 products already up to date (1.7s)

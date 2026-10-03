@@ -22,7 +22,7 @@ require('./http'); // hard time limit on every API call
 const crypto = require('crypto');
 const config = require('./config');
 const { fetchERPProducts } = require('./inext');
-const { getAccessToken, getExistingProducts, createProduct, updateProduct, setInventory } = require('./shopify');
+const { getAccessToken, getExistingProducts, getRecentOrderQuantities, createProduct, updateProduct, setInventory } = require('./shopify');
 const { mapToShopifyProduct, SYNC_TAG } = require('./mapper');
 const syncState = require('./state');
 const logger = require('./logger');
@@ -45,14 +45,17 @@ function detailsHash(payload) {
  * Works out the Shopify stock for a product that is already on the store.
  *
  * - ERP stock lower than Shopify's → sold at the POS: lower Shopify to match.
+ * - First time the sync sees the item → no history to go on, so raise Shopify
+ *   to the ERP stock, minus pieces in recent online orders (`onlineQty`).
  * - ERP stock higher than at the last sync → returned/restocked at the POS:
  *   raise Shopify by the same amount (never above the ERP stock).
  * - Anything else leaves Shopify alone, so a piece sold online that hasn't
  *   been billed at the POS yet is not put back on sale.
  */
-function stockAfterSync(erpQty, shopifyQty, lastErpQty) {
+function stockAfterSync(erpQty, shopifyQty, lastErpQty, onlineQty = 0) {
   if (erpQty < shopifyQty) return erpQty;
-  if (lastErpQty !== undefined && erpQty > lastErpQty) {
+  if (lastErpQty === undefined) return Math.max(shopifyQty, erpQty - onlineQty);
+  if (erpQty > lastErpQty) {
     return Math.min(erpQty, shopifyQty + (erpQty - lastErpQty));
   }
   return shopifyQty;
@@ -73,6 +76,7 @@ async function runSync() {
   const token = await getAccessToken();
   const skuMap = await getExistingProducts(token);
   const state = syncState.load();
+  let onlineOrders; // loaded only when a first-seen item needs it
 
   for (let i = 0; i < erpProducts.length; i++) {
     const erpItem = erpProducts[i];
@@ -93,7 +97,10 @@ async function runSync() {
       if (existing) {
         inventoryItemId = existing.inventoryItemId;
         currentQty      = existing.quantity;
-        newQty          = stockAfterSync(erpQty, currentQty, last.erpQty);
+        if (last.erpQty === undefined && erpQty > currentQty && !onlineOrders) {
+          onlineOrders = await getRecentOrderQuantities(token);
+        }
+        newQty          = stockAfterSync(erpQty, currentQty, last.erpQty, onlineOrders?.[sku]);
         // Products the sync didn't create (no sync tag) only get stock updates.
         if (hasSyncTag(existing.tags) && last.hash !== hash) {
           await updateProduct(token, existing.productId, payload);
