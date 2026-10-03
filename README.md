@@ -82,7 +82,6 @@ Reading the window (or `logs/`):
 | `No changes: all 110 products already up to date` | Shopify already matches iNext |
 | `STOCK: 1 → 0 (SKU: M0…)` | That product's Shopify stock was changed |
 | `CREATED: "…"` | A new product was added to Shopify |
-| `N products on Shopify are missing from iNext's list…` | iNext stopped sending them, so their stock can't update; check they're still marked for Shopify |
 
 ### Install on the shop PC
 

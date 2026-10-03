@@ -417,3 +417,113 @@
 [2026-10-03T15:05:07.992Z] [INFO ] Using permanent Shopify Admin token from .env
 [2026-10-03T15:05:08.919Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
 [2026-10-03T15:05:08.922Z] [INFO ] No changes: all 1 products already up to date (1.8s)
+[2026-10-03T15:16:21.186Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T15:16:21.188Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T15:16:21.188Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T15:16:21.189Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T15:16:21.190Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:16:24.048Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:16:24.049Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T15:16:25.246Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:16:25.250Z] [INFO ] No changes: all 1 products already up to date (4.1s)
+[2026-10-03T15:18:25.258Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:18:26.136Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:18:26.967Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:18:26.969Z] [INFO ] No changes: all 1 products already up to date (1.7s)
+[2026-10-03T15:20:26.973Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:20:28.015Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:20:28.968Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:20:28.971Z] [INFO ] No changes: all 1 products already up to date (2.0s)
+[2026-10-03T15:22:28.972Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:22:29.934Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:22:30.749Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:22:30.752Z] [INFO ] No changes: all 1 products already up to date (1.8s)
+[2026-10-03T15:24:30.755Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:24:31.956Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:24:33.058Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:24:33.060Z] [INFO ] No changes: all 1 products already up to date (2.3s)
+[2026-10-03T15:26:33.066Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:26:33.903Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:26:34.978Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:26:34.981Z] [INFO ] No changes: all 1 products already up to date (1.9s)
+[2026-10-03T15:46:51.705Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T15:46:51.707Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T15:46:51.708Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T15:46:51.709Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T15:46:51.709Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:46:53.271Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:46:53.272Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T15:46:54.795Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:46:54.800Z] [INFO ] No changes: all 1 products already up to date (3.1s)
+[2026-10-03T15:48:54.805Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:48:55.993Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:48:57.046Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:48:57.049Z] [INFO ] No changes: all 1 products already up to date (2.2s)
+[2026-10-03T15:50:57.061Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:50:58.073Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:50:59.538Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:50:59.541Z] [INFO ] No changes: all 1 products already up to date (2.5s)
+[2026-10-03T15:52:59.546Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:53:02.117Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:53:03.080Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:53:03.083Z] [INFO ] No changes: all 1 products already up to date (3.5s)
+[2026-10-03T15:55:03.096Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:55:04.050Z] [OK   ] iNext sent 1 item
+[2026-10-03T15:55:05.162Z] [WARN ] 109 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126442, M0126443, M0126429). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:55:05.165Z] [INFO ] No changes: all 1 products already up to date (2.1s)
+[2026-10-03T15:57:05.176Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:57:06.121Z] [OK   ] iNext sent 46 items
+[2026-10-03T15:57:06.972Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:57:08.731Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-10-03T15:57:08.732Z] [OK   ] [3/46] CREATED: "ZW-4500 - PEACH" (SKU: M0126234)
+[2026-10-03T15:57:11.133Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-10-03T15:57:11.134Z] [OK   ] [18/46] CREATED: "ZW-4500 - GOLDEN" (SKU: M01264586)
+[2026-10-03T15:57:11.739Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T15:57:11.740Z] [INFO ]   Sync Complete in 6.6s
+[2026-10-03T15:57:11.741Z] [INFO ]   ✅ Created : 2
+[2026-10-03T15:57:11.741Z] [INFO ]   🔄 Updated : 0
+[2026-10-03T15:57:11.741Z] [INFO ]   📦 Stock   : 0 changed
+[2026-10-03T15:57:11.742Z] [INFO ]   ⏭️  Skipped : 44
+[2026-10-03T15:57:11.742Z] [INFO ]   ❌ Errors  : 0
+[2026-10-03T15:57:11.743Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T15:59:11.748Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T15:59:12.757Z] [OK   ] iNext sent 46 items
+[2026-10-03T15:59:13.532Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T15:59:13.535Z] [INFO ] No changes: all 46 products already up to date (1.8s)
+[2026-10-03T16:01:13.537Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:01:14.967Z] [OK   ] iNext sent 46 items
+[2026-10-03T16:01:15.895Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T16:01:15.898Z] [INFO ] No changes: all 46 products already up to date (2.4s)
+[2026-10-03T16:03:15.908Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:03:17.129Z] [OK   ] iNext sent 46 items
+[2026-10-03T16:03:17.929Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T16:03:17.932Z] [INFO ] No changes: all 46 products already up to date (2.0s)
+[2026-10-03T16:05:17.938Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:05:19.158Z] [OK   ] iNext sent 46 items
+[2026-10-03T16:05:19.891Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T16:05:19.893Z] [INFO ] No changes: all 46 products already up to date (2.0s)
+[2026-10-03T16:07:19.905Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:07:20.857Z] [OK   ] iNext sent 46 items
+[2026-10-03T16:07:21.707Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T16:07:21.709Z] [INFO ] No changes: all 46 products already up to date (1.8s)
+[2026-10-03T16:08:03.733Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T16:08:03.735Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T16:08:03.735Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T16:08:03.736Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T16:08:03.736Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:08:04.802Z] [OK   ] iNext sent 46 items
+[2026-10-03T16:08:04.803Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T16:08:05.606Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T16:08:05.610Z] [INFO ] No changes: all 46 products already up to date (1.9s)
+[2026-10-03T16:10:05.613Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:10:06.556Z] [OK   ] iNext sent 46 items
+[2026-10-03T16:10:07.349Z] [WARN ] 66 products on Shopify are missing from iNext's list, so their stock can't update (e.g. M0126860, M0126859, M0126861). Check they are still marked for Shopify in iNext.
+[2026-10-03T16:10:07.352Z] [INFO ] No changes: all 46 products already up to date (1.7s)
+[2026-10-03T16:10:36.657Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T16:10:36.660Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T16:10:36.660Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T16:10:36.661Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T16:10:36.661Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:10:37.673Z] [OK   ] iNext sent 46 items
+[2026-10-03T16:10:37.674Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-03T16:10:38.610Z] [INFO ] No changes: all 46 products already up to date (1.9s)

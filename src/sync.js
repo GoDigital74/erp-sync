@@ -77,14 +77,6 @@ async function runSync() {
   const state = syncState.load();
   let onlineOrders; // loaded only when a first-seen item needs it
 
-  // Synced products that iNext no longer lists can't get stock updates.
-  const sent = new Set(erpProducts.map((item) => item.Itemcode));
-  const missing = Object.keys(skuMap).filter((sku) => hasSyncTag(skuMap[sku].tags) && !sent.has(sku));
-  if (missing.length) {
-    logger.warn(`${missing.length} products on Shopify are missing from iNext's list, so their stock can't update `
-      + `(e.g. ${missing.slice(0, 3).join(', ')}). Check they are still marked for Shopify in iNext.`);
-  }
-
   for (let i = 0; i < erpProducts.length; i++) {
     const erpItem = erpProducts[i];
     const label = `[${i + 1}/${erpProducts.length}]`;
