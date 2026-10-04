@@ -165,3 +165,11 @@
 [2026-10-04T12:10:20.153Z] [OK   ] iNext sent 116 items
 [2026-10-04T12:10:20.154Z] [INFO ] Using permanent Shopify Admin token from .env
 [2026-10-04T12:10:21.165Z] [INFO ] No changes: all 116 products already up to date (2.5s)
+[2026-10-04T12:10:42.328Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:10:42.330Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-04T12:10:42.331Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:10:42.331Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-04T12:10:42.332Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T12:10:43.634Z] [OK   ] iNext sent 116 items
+[2026-10-04T12:10:43.635Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-04T12:10:44.444Z] [INFO ] No changes: all 116 products already up to date (2.1s)
