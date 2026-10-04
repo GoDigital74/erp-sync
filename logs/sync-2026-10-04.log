@@ -99,3 +99,69 @@
 [2026-10-04T09:15:29.022Z] [INFO ] Calling iNext ERP API...
 [2026-10-04T09:15:30.142Z] [OK   ] iNext sent 112 items
 [2026-10-04T09:15:31.011Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T10:07:50.939Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T10:07:50.941Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-04T10:07:50.942Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T10:07:50.943Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-04T10:07:50.944Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T10:07:54.733Z] [OK   ] iNext sent 112 items
+[2026-10-04T10:07:54.734Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-04T10:07:56.009Z] [INFO ] No changes: all 112 products already up to date (5.1s)
+[2026-10-04T10:09:56.019Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T10:09:57.112Z] [OK   ] iNext sent 112 items
+[2026-10-04T10:09:57.868Z] [INFO ] No changes: all 112 products already up to date (1.8s)
+[2026-10-04T10:11:57.874Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T10:11:59.046Z] [OK   ] iNext sent 112 items
+[2026-10-04T10:11:59.823Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T10:13:59.827Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T10:14:00.914Z] [OK   ] iNext sent 112 items
+[2026-10-04T10:14:01.750Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T10:16:01.762Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T10:16:04.915Z] [OK   ] iNext sent 112 items
+[2026-10-04T10:16:05.772Z] [INFO ] No changes: all 112 products already up to date (4.0s)
+[2026-10-04T10:18:05.788Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T10:18:07.014Z] [OK   ] iNext sent 112 items
+[2026-10-04T10:18:07.907Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T10:20:07.909Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T10:20:09.041Z] [OK   ] iNext sent 112 items
+[2026-10-04T10:20:09.974Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T12:02:19.490Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:02:19.492Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-04T12:02:19.492Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:02:19.493Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-04T12:02:19.494Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T12:02:24.039Z] [OK   ] iNext sent 116 items
+[2026-10-04T12:02:24.040Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-04T12:02:31.008Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-10-04T12:02:31.009Z] [OK   ] [13/116] CREATED: "N58232 - FIROZE" (SKU: M01262201)
+[2026-10-04T12:02:34.242Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-10-04T12:02:34.243Z] [OK   ] [14/116] CREATED: "N58232 - ONION" (SKU: M01262202)
+[2026-10-04T12:02:38.040Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-10-04T12:02:38.041Z] [OK   ] [44/116] CREATED: "HS9-00021 - PINK" (SKU: M0126314)
+[2026-10-04T12:02:42.485Z] [WARN ] Online Store publication not found; product created but not published.
+[2026-10-04T12:02:42.486Z] [OK   ] [45/116] CREATED: "HS9-00021 - YELLOW" (SKU: M0126315)
+[2026-10-04T12:02:43.100Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:02:43.101Z] [INFO ]   Sync Complete in 23.6s
+[2026-10-04T12:02:43.102Z] [INFO ]   ✅ Created : 4
+[2026-10-04T12:02:43.102Z] [INFO ]   🔄 Updated : 0
+[2026-10-04T12:02:43.102Z] [INFO ]   📦 Stock   : 0 changed
+[2026-10-04T12:02:43.103Z] [INFO ]   ⏭️  Skipped : 112
+[2026-10-04T12:02:43.103Z] [INFO ]   ❌ Errors  : 0
+[2026-10-04T12:02:43.104Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:04:43.117Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T12:04:44.166Z] [OK   ] iNext sent 116 items
+[2026-10-04T12:04:45.033Z] [INFO ] No changes: all 116 products already up to date (1.9s)
+[2026-10-04T12:06:45.034Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T12:06:46.178Z] [OK   ] iNext sent 116 items
+[2026-10-04T12:06:47.015Z] [INFO ] No changes: all 116 products already up to date (2.0s)
+[2026-10-04T12:08:47.024Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T12:08:48.076Z] [OK   ] iNext sent 116 items
+[2026-10-04T12:08:48.951Z] [INFO ] No changes: all 116 products already up to date (1.9s)
+[2026-10-04T12:10:18.641Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:10:18.644Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-04T12:10:18.644Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T12:10:18.645Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-04T12:10:18.646Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T12:10:20.153Z] [OK   ] iNext sent 116 items
+[2026-10-04T12:10:20.154Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-04T12:10:21.165Z] [INFO ] No changes: all 116 products already up to date (2.5s)

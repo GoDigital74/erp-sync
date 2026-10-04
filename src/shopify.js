@@ -81,52 +81,10 @@ async function getExistingProducts(token) {
 }
 
 
-let _onlineStorePublicationId = null;
-
-async function getOnlineStorePublicationId(token) {
-  if (_onlineStorePublicationId) return _onlineStorePublicationId;
-
-  const res = await axios.post(
-    `https://${config.shopify.shopDomain}/admin/api/2024-01/graphql.json`,
-    { query: `{ publications(first: 10) { edges { node { id name } } } }` },
-    { headers: { 'X-Shopify-Access-Token': token, 'Content-Type': 'application/json' } }
-  );
-  const publications = res.data.data?.publications?.edges || [];
-  const onlineStore = publications.find((p) => p.node.name === 'Online Store');
-  _onlineStorePublicationId = onlineStore ? onlineStore.node.id : null;
-  return _onlineStorePublicationId;
-}
-
-async function publishToOnlineStore(token, productId) {
-  const publicationId = await getOnlineStorePublicationId(token);
-  if (!publicationId) {
-    logger.warn('Online Store publication not found; product created but not published.');
-    return;
-  }
-
-  const res = await axios.post(
-    `https://${config.shopify.shopDomain}/admin/api/2024-01/graphql.json`,
-    {
-      query: `
-        mutation publishablePublish($id: ID!, $input: [PublicationInput!]!) {
-          publishablePublish(id: $id, input: $input) {
-            userErrors { field message }
-          }
-        }
-      `,
-      variables: {
-        id: `gid://shopify/Product/${productId}`,
-        input: [{ publicationId }],
-      },
-    },
-    { headers: { 'X-Shopify-Access-Token': token, 'Content-Type': 'application/json' } }
-  );
-  const errors = res.data.data?.publishablePublish?.userErrors;
-  if (errors && errors.length > 0) {
-    logger.warn(`Failed to publish product ${productId} to Online Store: ${JSON.stringify(errors)}`);
-  }
-}
-
+/**
+ * Creates a product. Shopify publishes products created this way to the
+ * Online Store on its own, so there is no separate publish step.
+ */
 async function createProduct(token, payload) {
   const res = await axios.post(
     `https://${config.shopify.shopDomain}/admin/api/2024-01/products.json`,
@@ -134,10 +92,8 @@ async function createProduct(token, payload) {
     { headers: { 'X-Shopify-Access-Token': token, 'Content-Type': 'application/json' } }
   );
   const product = res.data.product;
-  try {
-    await publishToOnlineStore(token, product.id);
-  } catch (err) {
-    logger.warn(`Failed to publish product ${product.id} to Online Store: ${err.message}`);
+  if (!product.published_at) {
+    logger.warn(`Product ${product.id} was created but isn't on the Online Store; publish it in Shopify admin.`);
   }
   return product;
 }
@@ -210,59 +166,11 @@ async function getRecentOrderQuantities(token, days = 30) {
   return quantities;
 }
 
-async function getExistingVariants(token) {
-  const products = [];
-  let url = `https://${config.shopify.shopDomain}/admin/api/2024-01/products.json?limit=250&fields=id,variants`;
-
-  while (url) {
-    const res = await axios.get(url, {
-      headers: { 'X-Shopify-Access-Token': token }
-    });
-    products.push(...(res.data.products || []));
-
-    const link = res.headers['link'] || '';
-    const next = link.match(/<([^>]+)>;\s*rel="next"/);
-    url = next ? next[1] : null;
-  }
-
-  const variantMap = {};
-  for (const product of products) {
-    for (const variant of (product.variants || [])) {
-      if (variant.sku) variantMap[variant.sku] = variant.id;
-    }
-  }
-  return variantMap;
-}
-
-async function findOrderByExternalId(token, externalId) {
-  const res = await axios.get(
-    `https://${config.shopify.shopDomain}/admin/api/2024-01/orders.json?status=any&limit=250&fields=id,note_attributes`,
-    { headers: { 'X-Shopify-Access-Token': token } }
-  );
-  return (res.data.orders || []).find((order) =>
-    (order.note_attributes || []).some((attribute) =>
-      attribute.name === 'external_order_id' && attribute.value === String(externalId)
-    )
-  );
-}
-
-async function createOrder(token, payload) {
-  const res = await axios.post(
-    `https://${config.shopify.shopDomain}/admin/api/2024-01/orders.json`,
-    { order: payload },
-    { headers: { 'X-Shopify-Access-Token': token, 'Content-Type': 'application/json' } }
-  );
-  return res.data.order;
-}
-
 module.exports = {
   getAccessToken,
   getExistingProducts,
-  getExistingVariants,
   getRecentOrderQuantities,
-  findOrderByExternalId,
   createProduct,
   updateProduct,
   setInventory,
-  createOrder,
 };
