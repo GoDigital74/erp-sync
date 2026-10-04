@@ -1,0 +1,101 @@
+[2026-10-04T08:18:24.460Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T08:18:24.463Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-04T08:18:24.463Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T08:18:24.464Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-04T08:18:24.465Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:18:29.369Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:18:29.371Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-04T08:18:30.785Z] [INFO ] Using Shopify location 109294616760 for stock updates
+[2026-10-04T08:18:33.324Z] [OK   ] [44/112] STOCK: 0 → 1 (SKU: M01263794)
+[2026-10-04T08:18:33.935Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T08:18:33.936Z] [INFO ]   Sync Complete in 9.5s
+[2026-10-04T08:18:33.936Z] [INFO ]   ✅ Created : 0
+[2026-10-04T08:18:33.937Z] [INFO ]   🔄 Updated : 0
+[2026-10-04T08:18:33.937Z] [INFO ]   📦 Stock   : 1 changed
+[2026-10-04T08:18:33.938Z] [INFO ]   ⏭️  Skipped : 111
+[2026-10-04T08:18:33.938Z] [INFO ]   ❌ Errors  : 0
+[2026-10-04T08:18:33.938Z] [INFO ] ══════════════════════════════════════════
+[2026-10-04T08:20:33.944Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:20:35.012Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:20:35.884Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T08:22:35.900Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:22:36.946Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:22:37.752Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T08:24:37.759Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:24:38.873Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:24:39.708Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T08:26:39.719Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:26:40.897Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:26:41.832Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T08:28:41.838Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:28:43.016Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:28:43.813Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T08:30:43.822Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:30:45.139Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:30:46.025Z] [INFO ] No changes: all 112 products already up to date (2.2s)
+[2026-10-04T08:32:46.034Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:32:47.128Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:32:47.921Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T08:34:47.923Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:34:49.188Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:34:50.399Z] [INFO ] No changes: all 112 products already up to date (2.5s)
+[2026-10-04T08:36:50.401Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:36:51.499Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:36:52.380Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T08:38:52.395Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:38:53.589Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:38:54.532Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T08:40:54.545Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:40:55.815Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:40:56.805Z] [INFO ] No changes: all 112 products already up to date (2.3s)
+[2026-10-04T08:42:56.815Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:42:57.828Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:42:58.822Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T08:44:58.837Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:44:59.956Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:45:00.793Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T08:47:00.800Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:47:01.921Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:47:02.734Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T08:49:02.744Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:49:04.190Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:49:05.063Z] [INFO ] No changes: all 112 products already up to date (2.3s)
+[2026-10-04T08:51:05.070Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:51:06.082Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:51:06.932Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T08:53:06.944Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:53:08.113Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:53:08.920Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T08:55:08.935Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:55:09.980Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:55:10.841Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T08:57:10.854Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:57:11.959Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:57:12.929Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T08:59:12.945Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T08:59:14.083Z] [OK   ] iNext sent 112 items
+[2026-10-04T08:59:14.966Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T09:01:14.974Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:01:16.104Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:01:16.936Z] [INFO ] No changes: all 112 products already up to date (2.0s)
+[2026-10-04T09:03:16.942Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:03:17.970Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:03:19.006Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T09:05:19.014Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:05:20.079Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:05:20.943Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T09:07:20.950Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:07:22.108Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:07:23.023Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T09:09:23.024Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:09:24.189Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:09:25.147Z] [INFO ] No changes: all 112 products already up to date (2.1s)
+[2026-10-04T09:11:25.153Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:11:26.264Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:11:27.087Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T09:13:27.088Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:13:28.179Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:13:29.021Z] [INFO ] No changes: all 112 products already up to date (1.9s)
+[2026-10-04T09:15:29.022Z] [INFO ] Calling iNext ERP API...
+[2026-10-04T09:15:30.142Z] [OK   ] iNext sent 112 items
+[2026-10-04T09:15:31.011Z] [INFO ] No changes: all 112 products already up to date (2.0s)

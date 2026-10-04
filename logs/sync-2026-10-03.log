@@ -527,3 +527,13 @@
 [2026-10-03T16:10:37.673Z] [OK   ] iNext sent 46 items
 [2026-10-03T16:10:37.674Z] [INFO ] Using permanent Shopify Admin token from .env
 [2026-10-03T16:10:38.610Z] [INFO ] No changes: all 46 products already up to date (1.9s)
+[2026-10-03T16:12:38.622Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:12:41.956Z] [WARN ] iNext sent no items: Database connection failed
+[2026-10-03T16:12:41.957Z] [WARN ] Nothing to update; Shopify left as it is.
+[2026-10-03T16:13:16.828Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T16:13:16.830Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-03T16:13:16.830Z] [INFO ] ══════════════════════════════════════════
+[2026-10-03T16:13:16.831Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-03T16:13:16.832Z] [INFO ] Calling iNext ERP API...
+[2026-10-03T16:13:20.323Z] [WARN ] iNext sent no items: Database connection failed
+[2026-10-03T16:13:20.324Z] [WARN ] Nothing to update; Shopify left as it is.
