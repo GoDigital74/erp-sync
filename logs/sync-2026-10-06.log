@@ -1,0 +1,77 @@
+[2026-10-06T06:02:53.978Z] [INFO ] ══════════════════════════════════════════
+[2026-10-06T06:02:53.981Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-06T06:02:53.982Z] [INFO ] ══════════════════════════════════════════
+[2026-10-06T06:02:53.983Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-06T06:02:53.984Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:02:57.116Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:02:57.118Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-06T06:03:04.423Z] [OK   ] [34/136] CREATED: "SHN 9452 - YELLOW" (SKU: M01262430)
+[2026-10-06T06:03:08.052Z] [OK   ] [35/136] CREATED: "SHN 9452 - PINK" (SKU: M01262431)
+[2026-10-06T06:03:10.645Z] [OK   ] [36/136] CREATED: "SHN 9452 - GREEN" (SKU: M01262432)
+[2026-10-06T06:03:13.831Z] [OK   ] [37/136] CREATED: "SHN 9452 - FIROZE" (SKU: M01262433)
+[2026-10-06T06:03:16.915Z] [OK   ] [38/136] CREATED: "SHN 9452 - RED" (SKU: M01262434)
+[2026-10-06T06:03:18.903Z] [OK   ] [39/136] CREATED: "D NO-4920 - RANI" (SKU: M01262572)
+[2026-10-06T06:03:21.014Z] [OK   ] [40/136] CREATED: "D NO-4920 - FIROZE" (SKU: M01262573)
+[2026-10-06T06:03:23.067Z] [OK   ] [41/136] CREATED: "D NO-4920 - PURPLE" (SKU: M01262574)
+[2026-10-06T06:03:26.276Z] [OK   ] [42/136] CREATED: "D NO-4920 - RED" (SKU: M01262575)
+[2026-10-06T06:03:29.309Z] [OK   ] [43/136] CREATED: "D NO-4920 - RUST" (SKU: M01262576)
+[2026-10-06T06:03:30.940Z] [OK   ] [44/136] CREATED: "D NO-1436 - ORENGE" (SKU: M01262588)
+[2026-10-06T06:03:32.708Z] [OK   ] [45/136] CREATED: "D NO-1436 - ORENGE" (SKU: M01262589)
+[2026-10-06T06:03:34.708Z] [OK   ] [46/136] CREATED: "D NO-1436 - PINK" (SKU: M01262590)
+[2026-10-06T06:03:36.410Z] [OK   ] [47/136] CREATED: "D NO-1436 - PINK" (SKU: M01262591)
+[2026-10-06T06:03:38.272Z] [OK   ] [56/136] CREATED: "D NO 6155 - N-A" (SKU: M01262791)
+[2026-10-06T06:03:40.029Z] [OK   ] [64/136] CREATED: "TDQ3-3530 - RED" (SKU: M01264014)
+[2026-10-06T06:03:41.789Z] [OK   ] [74/136] CREATED: "OU-11076 - CREAM" (SKU: M01264401)
+[2026-10-06T06:03:43.550Z] [OK   ] [75/136] CREATED: "OU-11076 - PURPLE" (SKU: M01264402)
+[2026-10-06T06:03:44.670Z] [INFO ] Using Shopify location 109294616760 for stock updates
+[2026-10-06T06:03:45.310Z] [OK   ] [119/136] STOCK: 5 → 0 (SKU: M0126832)
+[2026-10-06T06:03:45.923Z] [INFO ] ══════════════════════════════════════════
+[2026-10-06T06:03:45.923Z] [INFO ]   Sync Complete in 51.9s
+[2026-10-06T06:03:45.924Z] [INFO ]   ✅ Created : 18
+[2026-10-06T06:03:45.924Z] [INFO ]   🔄 Updated : 0
+[2026-10-06T06:03:45.925Z] [INFO ]   📦 Stock   : 1 changed
+[2026-10-06T06:03:45.925Z] [INFO ]   ⏭️  Skipped : 117
+[2026-10-06T06:03:45.926Z] [INFO ]   ❌ Errors  : 0
+[2026-10-06T06:03:45.926Z] [INFO ] ══════════════════════════════════════════
+[2026-10-06T06:05:45.927Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:05:47.094Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:05:48.023Z] [INFO ] No changes: all 136 products already up to date (2.1s)
+[2026-10-06T06:07:48.032Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:07:49.202Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:07:50.099Z] [INFO ] No changes: all 136 products already up to date (2.1s)
+[2026-10-06T06:09:50.109Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:09:51.384Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:09:52.243Z] [INFO ] No changes: all 136 products already up to date (2.1s)
+[2026-10-06T06:11:52.252Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:11:53.330Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:11:54.293Z] [INFO ] No changes: all 136 products already up to date (2.0s)
+[2026-10-06T06:13:54.296Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:13:55.500Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:13:56.364Z] [INFO ] No changes: all 136 products already up to date (2.1s)
+[2026-10-06T06:15:56.380Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:15:57.629Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:15:58.492Z] [INFO ] No changes: all 136 products already up to date (2.1s)
+[2026-10-06T06:17:58.506Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:17:59.725Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:18:00.742Z] [INFO ] No changes: all 136 products already up to date (2.2s)
+[2026-10-06T06:20:00.753Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:20:02.159Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:20:03.101Z] [INFO ] No changes: all 136 products already up to date (2.3s)
+[2026-10-06T06:22:03.114Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:22:04.307Z] [OK   ] iNext sent 136 items
+[2026-10-06T06:22:05.355Z] [INFO ] No changes: all 136 products already up to date (2.2s)
+[2026-10-06T06:31:22.115Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:31:22.272Z] [ERROR] Fatal sync error: iNext API network error: getaddrinfo ENOTFOUND api.inexterpsolutions.in
+[2026-10-06T06:39:03.709Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T06:39:03.739Z] [ERROR] Fatal sync error: iNext API network error: getaddrinfo ENOTFOUND api.inexterpsolutions.in
+[2026-10-06T08:00:52.120Z] [INFO ] ══════════════════════════════════════════
+[2026-10-06T08:00:52.123Z] [INFO ]   iNext ERP → Shopify Sync Starting
+[2026-10-06T08:00:52.124Z] [INFO ] ══════════════════════════════════════════
+[2026-10-06T08:00:52.124Z] [INFO ] Auto mode: syncing every 2 min. Press Ctrl+C to stop.
+[2026-10-06T08:00:52.125Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T08:00:59.431Z] [OK   ] iNext sent 136 items
+[2026-10-06T08:00:59.433Z] [INFO ] Using permanent Shopify Admin token from .env
+[2026-10-06T08:01:05.526Z] [INFO ] No changes: all 136 products already up to date (13.4s)
+[2026-10-06T08:03:05.542Z] [INFO ] Calling iNext ERP API...
+[2026-10-06T08:03:06.995Z] [OK   ] iNext sent 136 items
+[2026-10-06T08:03:07.941Z] [INFO ] No changes: all 136 products already up to date (2.4s)

@@ -1,4 +1,4 @@
-npm start
+npm run auto 
 to run the project
 
 # iNext ERP → Shopify Sync
